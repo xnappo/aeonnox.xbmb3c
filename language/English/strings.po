@@ -1132,8 +1132,8 @@ msgid "Structure of music library"
 msgstr "Structure of music library"
 
 msgctxt "#31464"
-msgid "Recommended episodes"
-msgstr "Recommended episodes"
+msgid "NextUp episodes"
+msgstr "NextUp episodes"
 
 msgctxt "#31467"
 msgid "Get extrafanart"
