@@ -3047,7 +3047,7 @@
         </item>
         <item>
             <label>$INFO[Window(Home).Property(LatestMovieMB3.1.Title)]</label>
-            <property name="Path">PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.1.Path)])</property>
+            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.1.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.1.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.1.Art(fanart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.1.Runtime)]</property>
