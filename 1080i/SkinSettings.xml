@@ -75,6 +75,10 @@
                         <label>31641</label>
                         <onclick>noop</onclick>
                     </item>
+                    <item id="11">
+                        <label>Mode</label>
+                        <onclick>noop</onclick>
+                    </item>
                 </content>
             </control>
             <control type="label">
@@ -99,7 +103,7 @@
                     <onleft>9000</onleft>
                     <onright>60</onright>
                     <onup>9001</onup>
-                    <ondown>9001</ondown>					
+                    <ondown>9001</ondown>                    
                     <control type="radiobutton" id="101">
                         <label>20189</label>
                         <include>Default_SettingRadioButton</include>
@@ -154,19 +158,19 @@
                         <onclick>Skin.SetFile(Startup_Playlist_Path,.m3u|.xsp,special://profile/playlists/music/)</onclick>
                         <enable>Skin.HasSetting(Use_Startup_Playlist)</enable>
                     </control>
-					<control type="radiobutton" id="110">
-						<include>Default_SettingRadioButton</include>
-						<selected>Skin.HasSetting(UpdateArt.Enabled)</selected>
-						<onclick>Skin.ToggleSetting(UpdateArt.Enabled)</onclick>
-						<label>$LOCALIZE[32965]</label>
-						<visible>System.HasAddon(script.artwork.downloader)</visible>
-					</control>		
-					<control type="radiobutton" id="120">
-						<include>Default_SettingRadioButton</include>
-						<selected>Skin.HasSetting(CasesonWidgets)</selected>
-						<onclick>Skin.ToggleSetting(CasesonWidgets)</onclick>
-						<label>Cases on Widgets</label>
-					</control>																		
+                    <control type="radiobutton" id="110">
+                        <include>Default_SettingRadioButton</include>
+                        <selected>Skin.HasSetting(UpdateArt.Enabled)</selected>
+                        <onclick>Skin.ToggleSetting(UpdateArt.Enabled)</onclick>
+                        <label>$LOCALIZE[32965]</label>
+                        <visible>System.HasAddon(script.artwork.downloader)</visible>
+                    </control>        
+                    <control type="radiobutton" id="120">
+                        <include>Default_SettingRadioButton</include>
+                        <selected>Skin.HasSetting(CasesonWidgets)</selected>
+                        <onclick>Skin.ToggleSetting(CasesonWidgets)</onclick>
+                        <label>Cases on Widgets</label>
+                    </control>                                                                        
                 </control>
                 <control type="grouplist" id="9002">
                     <left>387</left>
@@ -229,7 +233,7 @@
                         <label>$LOCALIZE[32997]</label>
                         <include>Default_SettingButton</include>
                         <onclick>ActivateWindow(1168)</onclick>
-                    </control>					
+                    </control>                    
                     <control type="button" id="517">
                         <label>$LOCALIZE[31809]</label>
                         <include>Default_SettingButton</include>
@@ -244,8 +248,8 @@
                         <label>$LOCALIZE[32974]</label>
                         <include>Default_SettingButton</include>
                         <onclick>ActivateWindow(1165)</onclick>
-                    </control>										
-                </control>			
+                    </control>                                        
+                </control>            
                 <control type="grouplist" id="9004">
                     <left>387</left>
                     <top>200</top>
@@ -257,7 +261,7 @@
                     <onleft>9000</onleft>
                     <onup>450</onup>
                     <ondown>9004</ondown>
-					<onup>9004</onup>
+                    <onup>9004</onup>
                     <onright>9009</onright>
                     <control type="button" id="401">
                         <label>script.color.picker</label>
@@ -356,7 +360,7 @@
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>Addon.OpenSettings(script.tv.show.next.aired)</onclick>
                         <visible>System.HasAddon(script.tv.show.next.aired)</visible>
-                    </control>								
+                    </control>                                
                 </control>
                 <control type="grouplist" id="9009">
                     <left>1121</left>
@@ -446,27 +450,27 @@
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>noop</onclick>
                         <visible>!System.HasAddon(script.videoextras)</visible>
-                    </control>					
+                    </control>                    
                     <control type="button" id="437">
                         <label>script.videoextras</label>
                         <label2>[COLOR green]$LOCALIZE[107][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>Addon.OpenSettings(script.videoextras)</onclick>
                         <visible>System.HasAddon(script.videoextras)</visible>
-                    </control>	
+                    </control>    
                     <control type="button" id="438">
                         <label>script.nox.coloricon.downloader</label>
                         <label2>[COLOR red]$LOCALIZE[106][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>noop</onclick>
                         <visible>!System.HasAddon(script.nox.coloricon.downloader)</visible>
-                    </control>						
+                    </control>                        
                     <control type="button" id="439">
                         <label>script.nox.coloricon.downloader</label>
                         <label2>[COLOR green]$LOCALIZE[107][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <visible>System.HasAddon(script.nox.coloricon.downloader)</visible>
-                    </control>	
+                    </control>    
                 </control>
                 <control type="grouplist" id="9005">
                     <left>387</left>
@@ -497,7 +501,7 @@
                         <label>by BigNoid &amp; Phil65 Merge to Gotham by WarLion</label>
                         <font>Font_Reg26</font>
                         <textcolor>grey2</textcolor>
-                    </control>				
+                    </control>                
                     <control type="label">
                         <label>$LOCALIZE[31735][CR]$LOCALIZE[31736][CR]$LOCALIZE[31737][CR]</label>
                         <include>Default_SettingRadioButton</include>
@@ -510,7 +514,7 @@
                         <label>$LOCALIZE[31739]][CR]$LOCALIZE[31740]][CR]$LOCALIZE[31741][CR]</label>
                         <include>Default_SettingRadioButton</include>
                     </control>
-					
+                    
                     <control type="label">
                         <label>[CR][B]mikebzh44[/B] for the [B]Showcase Mode and More[/B][CR][B]neurosis13[/B] for the [B]Colored Movie and TV-Show Icons and Mediaflags[/B]</label>
                         <include>Default_SettingRadioButton</include>
@@ -518,7 +522,7 @@
                     <control type="label">
                         <label>[B]rob_webset[/B] for [B]Video Extras Script[/B][CR][B]WayneD[/B] for the new [B]TV Show Next Aired Script[/B]</label>
                         <include>Default_SettingRadioButton</include>
-                    </control>														
+                    </control>                                                        
                 </control>
                 <control type="grouplist" id="9009">
                     <left>387</left>
@@ -536,19 +540,19 @@
                         <label>$LOCALIZE[31456]</label>
                         <include>Default_SettingButton</include>
                         <onclick>Skin.SetPath(CDWall_Folder_Path)</onclick>
-                    </control>				
+                    </control>                
                     <control type="button" id="462">
                         <label>$LOCALIZE[192] $LOCALIZE[31456]</label>
-						<label2>[COLOR $VAR[FontColorVar]]$INFO[Skin.String(CDWall_Folder_Path)][/COLOR]</label2>
+                        <label2>[COLOR $VAR[FontColorVar]]$INFO[Skin.String(CDWall_Folder_Path)][/COLOR]</label2>
                         <include>Default_SettingButton</include>
                         <onclick>Skin.Reset(CDWall_Folder_Path)</onclick>
-						<visible>!IsEmpty(Skin.String(CDWall_Folder_Path))</visible>
-                    </control>						
+                        <visible>!IsEmpty(Skin.String(CDWall_Folder_Path))</visible>
+                    </control>                        
                     <control type="button" id="460">
                         <label>$LOCALIZE[31455]</label>
                         <include>Default_SettingButton</include>
                         <onclick>ActivateWindow(1164)</onclick>
-                    </control>				
+                    </control>                
                     <control type="button" id="303">
                         <label>$LOCALIZE[31678]</label>
                         <label2>[COLOR $VAR[FontColorVar]]$INFO[Skin.String(WeatherFanartDir)][/COLOR]</label2>
@@ -562,7 +566,7 @@
                         <include>Default_SettingButton</include>
                         <onclick>Skin.Reset(ArtistsLogosPath)</onclick>
                         <onclick>Skin.SetPath(ArtistsLogosPath)</onclick>
-                    </control>				
+                    </control>                
                     <control type="button" id="10">
                         <label>31459</label>
                         <label2>[COLOR $VAR[FontColorVar]]$VAR[LibraryStructureVar][/COLOR]</label2>
@@ -574,7 +578,27 @@
                         <onclick condition="Stringcompare(Skin.String(LibraryStructure),1)">Skin.SetString(LibraryStructure,2)</onclick>
                     </control>
                 </control>
-            </control>			
+                <control type="grouplist" id="9403"><!-- Modes -->
+                    <visible>Container(9000).HasFocus(11)</visible>
+                    <animation effect="fade" reversible="true" time="150">VisibleChange</animation>
+                    <left>387</left>
+                    <top>195</top>
+                    <width>1469</width>
+                    <height>732</height>
+                    <onleft>9100</onleft>
+                    <onright>60</onright>
+                    <itemgap>0</itemgap>
+                    <pagecontrol>-</pagecontrol>
+                    <control type="radiobutton" id="1901">
+                        <label>Media Browser Mode</label>
+                        <include>Default_SettingRadioButton</include>
+                        <onclick>Skin.ToggleSetting(xbmb3c)</onclick>
+                        <onclick>Skin.Reset(defaultsettings)</onclick>                        
+                        <onclick>ReplaceWindow(Home)</onclick>
+                        <selected>Skin.HasSetting(xbmb3c)</selected>
+                    </control>                    
+                </control>                
+            </control>            
             <control type="group">
                 <left>1170</left>
                 <top>780</top>

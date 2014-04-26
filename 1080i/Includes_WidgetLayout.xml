@@ -5266,7 +5266,8 @@
                     </control>
                 </focusedlayout>
                 <content>
-                    <include condition="Library.HasContent(movies) + [Window.IsActive(1124) | Substring(Skin.String(widgetlist),recentmoviespanel)]">LatestMoviesItems</include>
+                    <include condition="!Skin.HasSetting(xbmb3c) + Library.HasContent(movies) + [Window.IsActive(1124) | Substring(Skin.String(widgetlist),recentmoviespanel)]">LatestMoviesItems</include>
+                    <include condition="Skin.HasSetting(xbmb3c) + [Window.IsActive(1124) | Substring(Skin.String(widgetlist),recentmoviespanel)]">LatestMoviesItems</include>
                     <include condition="Library.HasContent(movies) + [Window.IsActive(1124) | Substring(Skin.String(widgetlist),randommoviespanel)]">RandomMoviesItems</include>
                     <include condition="Library.HasContent(musicvideos) + [Window.IsActive(1124) | Substring(Skin.String(widgetlist),watchlistmusicvideospanel)]">WatchListMusicVideosItems</include>
                     <include condition="Library.HasContent(musicvideos) + [Window.IsActive(1124) | Substring(Skin.String(widgetlist),recentmusicvideospanel)]">MusicvideoLatestItems</include>
@@ -5282,9 +5283,14 @@
                     <include condition="Library.HasContent(music) + !Window.IsActive(1124) + Substring(Skin.String(widgetlist),watchlistalbumspanel)">WatchlistMusicItemsHome</include>
                     <include condition="System.HasAddon(script.metadata.actors) + [Window.IsActive(1124) | Substring(Skin.String(widgetlist),actorspanel)]">BornActorsItems</include>
                     <include>RandomAddonsItems</include>
+
                     <include condition="!Window.IsActive(1124) + Substring(Skin.String(widgetlist),randomaddonspanel)">RandomAddonsItemsHome</include>
-                    <include condition="Library.HasContent(tvshows)">LatestEpisodesItems</include>
-                    <include condition="Library.HasContent(tvshows) + !Window.IsActive(1124) + Substring(Skin.String(widgetlist),recenttvpanel)">LatestEpisodesItemsHome</include>
+
+                    <include condition="!Skin.HasSetting(xbmb3c) + Library.HasContent(tvshows)">LatestEpisodesItems</include>
+                    <include condition="!Skin.HasSetting(xbmb3c) + Library.HasContent(tvshows) + !Window.IsActive(1124) + Substring(Skin.String(widgetlist),recenttvpanel)">LatestEpisodesItemsHome</include>
+                    <include condition="Skin.HasSetting(xbmb3c)">LatestEpisodesItems</include>
+                    <include condition="Skin.HasSetting(xbmb3c) + !Window.IsActive(1124) + Substring(Skin.String(widgetlist),recenttvpanel)">LatestEpisodesItemsHome</include>
+
                     <include condition="Library.HasContent(tvshows)">RandomEpisodesItems</include>
                     <include condition="Library.HasContent(tvshows) + !Window.IsActive(1124) + Substring(Skin.String(widgetlist),randomtvpanel)">RandomEpisodesItemsHome</include>
                     <include condition="Library.HasContent(tvshows)">WatchListTVItems</include>
@@ -5718,8 +5724,13 @@
                     <include condition="System.HasAddon(script.metadata.actors) + [Window.IsActive(1124) | Substring(Skin.String(widget2list),actorspanel)]">BornActorsItems2</include>
                     <include>RandomAddonsItems2</include>
                     <include condition="!Window.IsActive(1124) + Substring(Skin.String(widget2list),randomaddonspanel)">RandomAddonsItems2Home</include>
-                    <include condition="Library.HasContent(tvshows)">LatestEpisodesItems2</include>
-                    <include condition="Library.HasContent(tvshows) + !Window.IsActive(1124) + Substring(Skin.String(widget2list),recenttvpanel)">LatestEpisodesItems2Home</include>
+                    <include condition="!Window.IsActive(1124) + Substring(Skin.String(widget2list),randomaddonspanel)">RandomAddonsItems2Home</include>
+
+                    <include condition="!Skin.HasSetting(xbmb3c) + Library.HasContent(tvshows)">LatestEpisodesItems2</include>
+                    <include condition="!Skin.HasSetting(xbmb3c) + Library.HasContent(tvshows) + !Window.IsActive(1124) + Substring(Skin.String(widget2list),recenttvpanel)">LatestEpisodesItems2Home</include>
+                    <include condition="Skin.HasSetting(xbmb3c)">LatestEpisodesItems2</include>
+                    <include condition="Skin.HasSetting(xbmb3c) + !Window.IsActive(1124) + Substring(Skin.String(widget2list),recenttvpanel)">LatestEpisodesItems2Home</include>
+
                     <include condition="Library.HasContent(tvshows)">RandomEpisodesItems2</include>
                     <include condition="Library.HasContent(tvshows) + !Window.IsActive(1124) + Substring(Skin.String(widget2list),randomtvpanel)">RandomEpisodesItems2Home</include>
                     <include condition="Library.HasContent(tvshows)">WatchListTVItems2</include>

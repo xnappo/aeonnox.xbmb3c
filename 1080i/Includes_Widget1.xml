@@ -3043,7 +3043,24 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(RecentMovie.1.Title))</visible>
+            <visible>!Skin.HasSetting(xbmb3c)</visible>
         </item>
+        <item>
+            <label>$INFO[Window(Home).Property(LatestMovieMB3.1.Title)]</label>
+            <property name="Path">PlayMedia($ESCINFO[Window(Home).Property(LatestMovieMB3.1.Path)])</property>
+            <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.1.Art(clearlogo))]</property>
+            <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.1.Art(fanart))]</property>
+            <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.1.Runtime)]</property>
+            <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.1.Year)]</property>
+            <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.1.Rating)]</property>
+            <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.1.Top250)]</property>
+            <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.1.Art(poster))]</property>
+            <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.1.Plot)]</property>
+            <property name="NavItem">item1.png</property>
+            <onclick>SetFocus(5014)</onclick>
+            <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.1.Title))</visible>
+            <visible>Skin.HasSetting(xbmb3c)</visible>
+        </item>        
         <item>
             <label>$INFO[Window(Home).Property(RecentMovie.2.Title)]</label>
             <property name="Director">$INFO[Window(Home).Property(RecentMovie.2.Director)]</property>
