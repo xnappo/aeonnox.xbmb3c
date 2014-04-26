@@ -2086,7 +2086,8 @@
 			<onclick condition="Substring(Window(home).Property(WidgetType),album)">Playlist.Clear</onclick>
 			<onclick condition="Substring(Window(home).Property(WidgetType),movies) + !Skin.HasSetting(xbmb3c)">Runscript(service.skin.widgets,movieid=$INFO[Window(home).Property(DBID)],resume=false)</onclick>
 			<onclick condition="Substring(Window(home).Property(WidgetType),movies) + Skin.HasSetting(xbmb3c)">PlayMedia($ESCINFO[Window(home).Property(Path)])</onclick>
-			<onclick condition="Substring(Window(home).Property(WidgetType),tv)">Runscript(service.skin.widgets,episodeid=$INFO[Window(home).Property(DBID)],resume=false)</onclick>
+			<onclick condition="Substring(Window(home).Property(WidgetType),tv) + !Skin.HasSetting(xbmb3c)">Runscript(service.skin.widgets,episodeid=$INFO[Window(home).Property(DBID)],resume=false)</onclick>
+			<onclick condition="Substring(Window(home).Property(WidgetType),tv) + Skin.HasSetting(xbmb3c)">PlayMedia($ESCINFO[Window(home).Property(Path)])</onclick>            
 			<onclick condition="Substring(Window(home).Property(WidgetType),musicvideo)">Runscript(service.skin.widgets,musicvideoid=$INFO[Window(home).Property(DBID)],resume=false)</onclick>
 			<onclick condition="!Substring(Window(home).Property(WidgetType),artist) + !Substring(Window(home).Property(WidgetType),addons) + !Substring(Window(home).Property(WidgetType),artists) + !Substring(Window(home).Property(WidgetType),rss) + !Substring(Window(home).Property(WidgetType),roms) + !Substring(Window(home).Property(WidgetType),musicvideo) + !Substring(Window(home).Property(WidgetType),tv) + !Substring(Window(home).Property(WidgetType),movie)">$INFO[Window(home).Property(Path)]</onclick>
 			<onclick condition="Substring(Window(home).Property(WidgetType),addons)">RunAddon($INFO[Window(home).Property(Path)])</onclick>
@@ -2850,7 +2851,8 @@
 						<onclick condition="!IsEmpty(Window(home).Property(PanelWidget2Info))">SetFocus(6010)</onclick>
 						<onclick condition="Substring(Window(home).Property(WidgetType),movies) + !Skin.HasSetting(xbmb3c)">Runscript(service.skin.widgets,movieid=$INFO[Window(home).Property(DBID)],resume=false)</onclick>
 						<onclick condition="Substring(Window(home).Property(WidgetType),movies) + Skin.HasSetting(xbmb3c)">PlayMedia($ESCINFO[Window(home).Property(Path)])</onclick>
-						<onclick condition="Substring(Window(home).Property(WidgetType),tv)">Runscript(service.skin.widgets,episodeid=$INFO[Window(home).Property(DBID)],resume=false)</onclick>
+						<onclick condition="Substring(Window(home).Property(WidgetType),tv) + !Skin.HasSetting(xbmb3c)">Runscript(service.skin.widgets,episodeid=$INFO[Window(home).Property(DBID)],resume=false)</onclick>
+						<onclick condition="Substring(Window(home).Property(WidgetType),tv) + Skin.HasSetting(xbmb3c)">PlayMedia($ESCINFO[Window(home).Property(Path)])</onclick>                        
 						<onclick condition="Substring(Window(home).Property(WidgetType),musicvideo)">Runscript(service.skin.widgets,musicvideoid=$INFO[Window(home).Property(DBID)],resume=false)</onclick>
 						<onclick condition="Substring(Window(home).Property(WidgetType),roms)">RunScript(script.games.rom.collection.browser,launchid=$INFO[Window(home).Property(Id)])</onclick>
 						<onclick condition="!SubString(Window(home).Property(WidgetType),actor) + !Substring(Window(home).Property(WidgetType),roms) + !Substring(Window(home).Property(WidgetType),movies) + !Substring(Window(home).Property(WidgetType),tv) + !Substring(Window(home).Property(WidgetType),musicvideo)">$INFO[Window(home).Property(Path)]</onclick>
