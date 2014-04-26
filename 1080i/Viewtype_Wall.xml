@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<includes>
+    <include name="MovieWallIcons">
+        <control type="image">
+            <left>120</left>
+            <top>4</top>
+            <width>60</width>
+            <height>60</height>
+            <include>OverlayVisibility0</include>
+        </control>
+		<control type="image">
+            <left>120</left>
+            <top>4</top>
+            <width>60</width>
+            <height>60</height>
+			<texture>overlayprogress.png</texture>
+			<visible>Container.ListItem(0).IsResumable + Skin.HasSetting(InProgressFlag)</visible>
+		</control>				
+		<control type="image">
+            <left>120</left>
+            <top>4</top>
+            <width>60</width>
+            <height>60</height>
+			<texture background="true" diffuse="thumbs/ExtraOverlayWatched.png">$VAR[VideoextrasOverlay]</texture>
+			<visible>System.HasAddon(script.videoextras)</visible>
+		</control>			
+        <control type="image">
+            <left>-4</left>
+            <top>-2</top>
+            <width>192</width>
+            <height>277</height>
+            <texture>wall/boxes/wall_movie_overlay.png</texture><!--texture for cases--->
+            <visible>Skin.HasSetting(wallcases)</visible>
+        </control>
+        <include>UnwatchedIcon</include>
+    </include>
+    <include name="WallIcons">
+        <control type="image">
+            <left>12</left>
+            <top>11</top>
+            <width>185</width>
+            <height>182</height>
+            <aspectratio scalediffuse="false">scale</aspectratio>
+            <texture background="true" diffuse="thumbs/boxes/cdcover_mask.png" fallback="DefaultAudio.png">$VAR[ListAlbumVar]</texture>
+        </control>
+        <control type="image">
+            <top>1</top>
+            <width>208</width>
+            <height>204</height>
+            <texture>wall/boxes/wall_overlay.png</texture>
+            <visible>!Container.Content(artists)</visible>
+        </control>
+        <control type="image">
+            <left>148</left>
+            <top>6</top>
+            <width>50</width>
+            <height>50</height>
+            <include>OverlayVisibility0</include>
+        </control>
+		<control type="image">
+            <left>148</left>
+            <top>6</top>
+            <width>50</width>
+            <height>50</height>
+			<texture>overlayprogress.png</texture>
+			<visible>Container.ListItem(0).IsResumable + Skin.HasSetting(InProgressFlag)</visible>
+		</control>			
+		<control type="image">
+            <left>148</left>
+            <top>6</top>
+            <width>50</width>
+            <height>50</height>
+			<texture background="true" diffuse="thumbs/ExtraOverlayWatched.png">$VAR[VideoextrasOverlay]</texture>
+			<visible>System.HasAddon(script.videoextras)</visible>
+		</control>			
+    </include>
+    <include name="WallContent">
+        <itemlayout height="268" width="275" condition="![Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(musicvideos) | [Window.IsActive(videolibrary) + Container.Content(genres)] | [Window.IsActive(pictures) + Substring(Container.FolderPath,\comics\)]] + [Skin.HasSetting(titlewall) | StringCompare(Container.FolderName,youtube)]">
+            <control type="image">
+                <left>5</left>
+                <width>265</width>
+                <height>185</height>
+                <aspectratio aligny="top">keep</aspectratio>
+                <texture background="true">$INFO[ListItem.Icon]</texture>
+                <bordertexture border="5">thumbs/bordershadow4.png</bordertexture>
+                <bordersize>5</bordersize>
+            </control>
+            <control type="image">
+                <left>5</left>
+                <width>265</width>
+                <height>185</height>
+                <texture background="true">common/bgcolor.png</texture>
+                <bordersize>5</bordersize>
+                <animation effect="fade" start="100" end="25" time="0" condition="true">Conditional</animation>
+            </control>
+            <control type="group">
+                <visible>!Container.Content(artists)</visible>
+                <control type="label">
+                    <top>195</top>
+                    <width>276</width>
+                    <textoffsetx>15</textoffsetx>
+                    <label>$INFO[ListItem.Label2]</label>
+                    <font>Font_Reg26</font>
+                    <textcolor>grey2</textcolor>
+                </control>
+                <control type="label">
+                    <left>276</left>
+                    <top>195</top>
+                    <width>276</width>
+                    <textoffsetx>15</textoffsetx>
+                    <align>right</align>
+                    <label>$INFO[ListItem.Rating]</label>
+                    <font>Font_Reg26</font>
+                    <textcolor>grey2</textcolor>
+					<visible>!Container.Content(songs)</visible>
+                </control>				
+            <control type="image">
+                    <left>120</left>
+                    <top>200</top>
+                    <width>200</width>
+					<aspectratio>keep</aspectratio>
+                <colordiffuse>$VAR[FocusTextureColorVar]</colordiffuse>
+                <texture fallback="flags/music/rating/rating0.png">flags/music/rating/$INFO[ListItem.StarRating]</texture>
+				<visible>Container.Content(songs)</visible>
+            </control>	
+                <control type="label">
+                    <top>125</top>
+                    <width>276</width>
+                    <textoffsetx>15</textoffsetx>
+                    <label>$INFO[ListItem.Label]</label>
+                    <font>Font_Reg26</font>
+                    <textcolor>grey2</textcolor>
+                </control>
+            </control>
+            <control type="label">
+                <left>138</left>
+                <top>210</top>
+                <width>276</width>
+                <textoffsetx>15</textoffsetx>
+                <align>center</align>
+                <label>$INFO[ListItem.Label]</label>
+                <font>Font_Reg26</font>
+                <textcolor>grey2</textcolor>
+                <visible>Container.Content(artists)</visible>
+            </control>
+        </itemlayout>
+        <focusedlayout height="268" width="275" condition="![Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(musicvideos) | [Window.IsActive(videolibrary) + Container.Content(genres)] | [Window.IsActive(pictures) + Substring(Container.FolderPath,\comics\)]] + [Skin.HasSetting(titlewall) | StringCompare(Container.FolderName,youtube)]">
+            <control type="image">
+                <width>275</width>
+                <height>268</height>
+                <colordiffuse>$VAR[FocusTextureColorVar]</colordiffuse>
+                <texture border="8">views/tripanel/listselect_fo.png</texture>
+            </control>
+            <control type="image">
+                <left>5</left>
+                <width>265</width>
+                <height>185</height>
+                <aspectratio aligny="top">keep</aspectratio>
+                <texture background="true">$INFO[ListItem.Icon]</texture>
+                <bordertexture border="5">thumbs/bordershadow4.png</bordertexture>
+                <bordersize>5</bordersize>
+            </control>
+            <control type="group">
+                <visible>!Container.Content(artists)</visible>
+                <control type="label">
+                    <top>195</top>
+                    <width>276</width>
+                    <textoffsetx>15</textoffsetx>
+                    <label>$INFO[ListItem.Label2]</label>
+                    <font>Font_Reg26</font>
+                </control>
+                <control type="label">
+                    <left>276</left>
+                    <top>195</top>
+                    <width>276</width>
+                    <textoffsetx>15</textoffsetx>
+                    <align>right</align>
+                    <label>$INFO[ListItem.Rating]</label>
+                    <font>Font_Reg26</font>
+                    <textcolor>grey2</textcolor>
+					<visible>!Container.Content(songs)</visible>
+                </control>					
+            <control type="image">
+                    <left>120</left>
+                    <top>200</top>
+                    <width>200</width>
+					<aspectratio>keep</aspectratio>
+                <colordiffuse>$VAR[FocusTextureColorVar]</colordiffuse>
+                <texture fallback="flags/music/rating/rating0.png">flags/music/rating/$INFO[ListItem.StarRating]</texture>
+				<visible>Container.Content(songs)</visible>
+            </control>				
+                <control type="label">
+                    <top>125</top>
+                    <width>276</width>
+                    <textoffsetx>15</textoffsetx>
+                    <label>$INFO[ListItem.Label]</label>
+                    <font>Font_Reg26</font>
+                    <scroll>true</scroll>
+                </control>
+            </control>
+            <control type="label">
+                <left>138</left>
+                <top>210</top>
+                <width>276</width>
+                <textoffsetx>15</textoffsetx>
+                <align>center</align>
+                <label>$INFO[ListItem.Label]</label>
+                <font>Font_Reg26</font>
+                <textcolor>$VAR[FontColorVar]</textcolor>
+                <visible>Container.Content(artists)</visible>
+            </control>
+        </focusedlayout>
+        <itemlayout height="161" width="831" condition="[Container.Content(movies) + Skin.HasSetting(MovieWallBanner)] | [Container.Content(tvshows) + Skin.HasSetting(TVWallBanner)]">
+            <control type="group">
+                <control type="image">
+                    <width>831</width>
+                    <height>161</height>
+                    <aspectratio align="center">scale</aspectratio>
+                    <texture background="true">$VAR[BannerVar]</texture>
+                    <bordersize>5</bordersize>
+                </control>
+                <control type="image">
+                    <left>30</left>
+                    <top>18</top>
+                    <width>831</width>
+                    <height>121</height>
+                    <aspectratio align="left">keep</aspectratio>
+                    <texture background="true">$VAR[LogoVarList]</texture>
+                    <visible>IsEmpty(ListItem.Art(banner)) + IsEmpty(ListItem.Art(tvshow.banner))</visible>
+                </control>
+                <control type="label">
+                    <left>416</left>
+                    <top>8</top>
+                    <width>816</width>
+                    <height>146</height>
+                    <align>center</align>
+                    <label>$INFO[ListItem.Label]</label>
+                    <font>Font_Bold40</font>
+                    <shadowcolor>black</shadowcolor>
+                    <visible>IsEmpty(ListItem.Art(banner)) + IsEmpty(ListItem.Art(tvshow.banner)) + IsEmpty(ListItem.Art(clearlogo))</visible>
+                </control>
+                <control type="image">
+                    <left>735</left>
+                    <top>6</top>
+                    <width>90</width>
+                    <height>90</height>
+                    <include>OverlayVisibility0</include>
+                </control>
+				<control type="image">
+					<left>735</left>
+					<top>6</top>
+					<width>90</width>
+					<height>90</height>
+					<texture>overlayprogress.png</texture>
+					<visible>Container.ListItem(0).IsResumable + Skin.HasSetting(InProgressFlag)</visible>
+				</control>					
+				<control type="image">
+                    <left>735</left>
+                    <top>6</top>
+                    <width>90</width>
+                    <height>90</height>
+					<texture>$VAR[VideoextrasOverlay]</texture>
+					<visible>System.HasAddon(script.videoextras)</visible>
+				</control>					
+                <include>UnwatchedIcon</include>
+                <control type="image">
+                    <width>831</width>
+                    <height>161</height>
+                    <aspectratio align="center">stretch</aspectratio>
+                    <texture>common/bgcolor.png</texture>
+                    <animation effect="fade" start="100" end="50" time="40" condition="true">Conditional</animation>
+                    <bordersize>5</bordersize>
+                </control>
+            </control>
+        </itemlayout>
+        <focusedlayout height="161" width="831" condition="[Container.Content(movies) + Skin.HasSetting(MovieWallBanner)] | [Container.Content(tvshows) + Skin.HasSetting(TVWallBanner)]">
+            <control type="group">
+                <control type="image">
+                    <top>2</top>
+                    <width>831</width>
+                    <height>157</height>
+                    <aspectratio>stretch</aspectratio>
+                    <texture>views/addonwall_select.png</texture>
+                    <colordiffuse>$VAR[FocusTextureColorVar]</colordiffuse>
+                </control>
+                <control type="image">
+                    <width>831</width>
+                    <height>161</height>
+                    <aspectratio align="center">scale</aspectratio>
+                    <texture background="true">$VAR[BannerVar]</texture>
+                    <bordersize>5</bordersize>
+                </control>
+                <control type="image">
+                    <left>30</left>
+                    <top>18</top>
+                    <width>831</width>
+                    <height>121</height>
+                    <aspectratio align="left">keep</aspectratio>
+                    <texture background="true">$VAR[LogoVarList]</texture>
+                    <visible>IsEmpty(ListItem.Art(banner)) + IsEmpty(ListItem.Art(tvshow.banner))</visible>
+                </control>
+                <control type="label">
+                    <left>416</left>
+                    <top>8</top>
+                    <width>816</width>
+                    <height>146</height>
+                    <align>center</align>
+                    <label>$INFO[ListItem.Label]</label>
+                    <font>Font_Bold40</font>
+                    <shadowcolor>black</shadowcolor>
+                    <visible>IsEmpty(ListItem.Art(banner)) + IsEmpty(ListItem.Art(tvshow.banner)) + IsEmpty(ListItem.Art(clearlogo))</visible>
+                </control>
+                <include>UnwatchedIcon</include>
+                <control type="image">
+                    <left>735</left>
+                    <top>5</top>
+                    <width>90</width>
+                    <height>90</height>
+                    <include>OverlayVisibility0</include>
+                </control>
+				<control type="image">
+		            <left>735</left>
+                    <top>5</top>
+                    <width>90</width>
+                    <height>90</height>
+					<texture>overlayprogress.png</texture>
+					<visible>Container.ListItem(0).IsResumable + Skin.HasSetting(InProgressFlag)</visible>
+				</control>					
+				<control type="image">
+                    <left>735</left>
+                    <top>5</top>
+                    <width>90</width>
+                    <height>90</height>
+					<texture>$VAR[VideoextrasOverlay]</texture>
+					<visible>System.HasAddon(script.videoextras)</visible>
+				</control>					
+            </control>
+        </focusedlayout>
+        <itemlayout width="185" height="268" condition="[[Container.Content(movies) + !Skin.HasSetting(MovieWallBanner)] | [Container.Content(tvshows) + !Skin.HasSetting(TVWallBanner)] | Container.Content(seasons) | Container.Content(sets) | Container.Content(musicvideos) | [Window.IsActive(videolibrary) + Container.Content(genres)] | [Window.IsActive(pictures) + Substring(Container.FolderPath,\comics\)]]">
+            <control type="image">
+                <left>-14</left>
+                <top>-14</top>
+                <width>212</width>
+                <height>296</height>
+                <aspectratio scalediffuse="false">scale</aspectratio>
+                <texture background="true" diffuse="wall/wall_movie_mask.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar]</texture>
+                <bordersize>18</bordersize>
+            </control>
+            <include>MovieWallIcons</include>
+            <control type="image">
+                <left>4</left>
+                <top>4</top>
+                <width>177</width>
+                <height>260</height>
+                <texture diffuse="wall/wall_movie_mask.png">common/bgcolor.png</texture>
+                <include>Animation_VisibleChange200</include>
+                <visible>Skin.HasSetting(ExtendedGlowMode)</visible>
+                <animation effect="fade" start="100" end="25" time="0" condition="true">Conditional</animation>
+            </control>
+        </itemlayout>
+        <focusedlayout width="185" height="268" condition="[[Container.Content(movies) + !Skin.HasSetting(MovieWallBanner)] | [Container.Content(tvshows) + !Skin.HasSetting(TVWallBanner)] | Container.Content(seasons) | Container.Content(sets) | Container.Content(musicvideos) | [Window.IsActive(videolibrary) + Container.Content(genres)] | [Window.IsActive(pictures) + Substring(Container.FolderPath,\comics\)]]">
+            <control type="group">
+                <animation type="Focus" reversible="false">
+                    <effect type="zoom" center="auto" start="100" end="150" time="320" tween="cubic" />
+                </animation>
+                <animation effect="slide" end="0,20" time="320" reversible="false" tween="cubic" condition="Container(500).Row(0) + Skin.HasSetting(wallfullscreen)">Conditional</animation>
+                <animation effect="slide" end="0,-20" time="320" reversible="false" tween="cubic" condition="Container(500).Row(2) + Skin.HasSetting(wallfullscreen)">Conditional</animation>
+                <animation effect="slide" end="20,0" time="320" reversible="false" tween="cubic" condition="Container(500).Column(0) + Skin.HasSetting(wallfullscreen)">Conditional</animation>
+                <animation effect="slide" end="-20,0" time="320" reversible="false" tween="cubic" condition="Container(500).Column(8) + Skin.HasSetting(wallfullscreen)">Conditional</animation>
+		<!--	<control type="group">
+                    <left>0</left>
+                    <top>-14</top>			
+			      <width>600</width>
+				  <height>300</height>
+                <control type="image">
+					<top>-13</top>
+                    <width>100</width>
+                    <height>324</height>
+                    <texture background="true">dialogs/dialog_back.png</texture>
+                    <bordersize>18</bordersize>
+					<animation effect="zoom" end="800,100" center="0,200" time="200" delay="1000" reversible="true">Focus</animation>
+                </control>	
+                <control type="textbox">
+                    <left>210</left>
+                    <top>160</top>
+                    <width>400</width>
+                    <height>100</height>
+                    <label>$INFO[Listitem.plot]</label>
+                    <font>Font_Reg17</font>
+                    <autoscroll delay="8000" time="AutoScrollTime" repeat="8000">Skin.HasSetting(AutoScroll)</autoscroll>
+					<animation effect="fade" start="0" end="100" time="200" delay="1200" reversible="true">focus</animation>
+                </control>	
+                <control type="label">
+                    <left>210</left>
+                    <top>10</top>
+                    <width>400</width>
+                    <height>100</height>
+                    <label>$INFO[Listitem.label]</label>
+                    <font>Font_Reg30_Caps</font>
+					<animation effect="fade" start="0" end="100" time="200" delay="1200" reversible="true">focus</animation>
+                </control>				
+			</control>		-->			
+                <control type="image">
+                    <left>-14</left>
+                    <top>-14</top>
+                    <width>212</width>
+                    <height>296</height>
+                    <aspectratio scalediffuse="false">scale</aspectratio>
+                    <texture background="true" diffuse="wall/wall_movie_mask.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar]</texture>
+                    <bordertexture border="18">thumbs/poster_shadow.png</bordertexture>
+                    <bordersize>18</bordersize>
+                </control>
+                <include>MovieWallIcons</include>
+            </control>
+        </focusedlayout>
+        <itemlayout width="208" height="201" condition="![Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(sets) | Container.Content(musicvideos) | [Window.IsActive(videolibrary) + Container.Content(genres)] | [Window.IsActive(pictures) + Substring(Container.FolderPath,\comics\)]] + ![Skin.HasSetting(titlewall) | StringCompare(Container.FolderName,youtube)]">
+            <include>WallIcons</include>
+        </itemlayout>
+        <focusedlayout width="208" height="201" condition="![Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(sets) | Container.Content(musicvideos) | [Window.IsActive(videolibrary) + Container.Content(genres)] | [Window.IsActive(pictures) + Substring(Container.FolderPath,\comics\)]] + ![Skin.HasSetting(titlewall) | StringCompare(Container.FolderName,youtube)]">
+            <control type="group">
+                <animation type="Focus" reversible="false">
+                    <effect type="zoom" center="auto" start="100" end="160" time="320" tween="cubic" />
+                </animation>
+                <animation effect="slide" end="0,20" time="80" reversible="false" condition="Container(500).Row(0) + Skin.HasSetting(wallfullscreen)">Conditional</animation>
+                <animation effect="slide" end="0,-20" time="80" reversible="false" condition="Container(500).Row(3) + Skin.HasSetting(wallfullscreen)">Conditional</animation>
+                <animation effect="slide" end="20,0" time="80" reversible="false" condition="Container(500).Column(0) + Skin.HasSetting(wallfullscreen)">Conditional</animation>
+                <animation effect="slide" end="-20,0" time="80" reversible="false" condition="Container(500).Column(7) + Skin.HasSetting(wallfullscreen)">Conditional</animation>
+                <include>WallIcons</include>
+            </control>
+        </focusedlayout>
+    </include>
+    <include name="WallHorizontal">
+        <control type="panel" id="500">
+            <left>129</left>
+            <top>124</top>
+            <width>1665</width>
+            <height>820</height>
+            <visible>!IsEmpty(Container.FolderPath) | Window.IsActive(videoplaylist)</visible>
+            <visible>![!IsEmpty(Skin.String(DisableWallVL)) + Window.IsActive(videos)]</visible>
+            <viewtype label="31234">icon</viewtype>
+            <pagecontrol>61</pagecontrol>
+            <preloaditems>2</preloaditems>
+            <scrolltime tween="quadratic">200</scrolltime>
+            <animation effect="zoom" end="113" center="960,600" time="320" tween="cubic" easing="inout" condition="Skin.HasSetting(wallfullscreen)">Conditional</animation>
+            <onleft>500</onleft>
+            <onright>500</onright>
+            <onup>9000</onup>
+            <ondown>61</ondown>
+            <orientation>horizontal</orientation>
+            <include>WallContent</include>
+        </control>
+    </include>
+    <include name="WallVertical">
+        <control type="scrollbar" id="72">
+            <left>1774</left>
+            <top>132</top>
+            <width>46</width>
+            <height>802</height>
+            <include>Animation_VerticalScrollBar</include>
+            <onleft>500</onleft>
+            <onright>9000</onright>
+        </control>
+        <control type="panel" id="500">
+            <left>129</left>
+            <top>124</top>
+            <width>1665</width>
+            <height>805</height>
+            <visible>!IsEmpty(Container.FolderPath) | Window.IsActive(videoplaylist)</visible>
+            <visible>![!IsEmpty(Skin.String(DisableWallVL)) + Window.IsActive(videos)]</visible>
+            <viewtype label="31234">icon</viewtype>
+            <pagecontrol>72</pagecontrol>
+            <preloaditems>2</preloaditems>
+            <scrolltime tween="quadratic">200</scrolltime>
+            <onleft>9000</onleft>
+            <onright>72</onright>
+            <onup>500</onup>
+            <ondown>500</ondown>
+            <animation effect="zoom" end="113" center="960,600" time="320" tween="cubic" easing="inout" condition="Skin.HasSetting(wallfullscreen)">Conditional</animation>
+            <orientation>vertical</orientation>
+            <include>WallContent</include>
+        </control>
+    </include>
+    <include name="Viewtype_Wall">
+        <control type="group">
+            <visible>Control.IsVisible(500)</visible>
+            <include>Animation_Widgets</include>
+            <control type="image">
+                <left>147</left>
+                <top>147</top>
+                <width>1628</width>
+                <height>765</height>
+                <texture background="true">wall/wall_movie_squares.png</texture>
+                <include>Animation_VisibleChange200</include>
+                <visible>[Container.Content(movies) + !Skin.HasSetting(MovieWallBanner)] | [Container.Content(tvshows) + !Skin.HasSetting(TVWallBanner)] | Container.Content(sets) | Container.Content(seasons) | Container.Content(musicvideos) | [Window.IsActive(videolibrary) + Container.Content(genres)] | [Window.IsActive(pictures) + Substring(Container.FolderPath,\comics\)]</visible>
+                <animation effect="zoom" end="113" center="960,600" time="320" tween="cubic" easing="inout" condition="Skin.HasSetting(wallfullscreen)">Conditional</animation>
+            </control>
+            <control type="image">
+                <left>144</left>
+                <top>140</top>
+                <width>1632</width>
+                <height>775</height>
+                <texture background="true">wall/wall_squares.png</texture>
+                <include>Animation_VisibleChange200</include>
+                <visible>![Container.Content(movies) | Container.Content(tvshows) | Container.Content(sets) | Container.Content(seasons) | Container.Content(musicvideos) | [Window.IsActive(videolibrary) + Container.Content(genres)] | [Window.IsActive(pictures) + Substring(Container.FolderPath,\comics\)]] + ![Skin.HasSetting(titlewall) | StringCompare(Container.FolderName,youtube)]</visible>
+                <animation effect="zoom" end="113" center="960,600" time="320" tween="cubic" easing="inout" condition="Skin.HasSetting(wallfullscreen)">Conditional</animation>
+            </control>
+            <control type="group">
+                <visible>!Skin.HasSetting(wallfullscreen)</visible>
+                <include>Animation_VisibleChange400</include>
+                <visible>[!Skin.HasSetting(WallVertical) + Control.IsVisible(500) + !Window.IsActive(musiclibrary)] | [!Skin.HasSetting(WallMusicVertical) + Control.IsVisible(500) + Window.IsActive(musiclibrary)]</visible>
+                <control type="image">
+                    <left>86</left>
+                    <top>150</top>
+                    <width>30</width>
+                    <height>786</height>
+                    <texture>wall/wall_arrow.png</texture>
+                    <colordiffuse>$VAR[TitleColorVar]</colordiffuse>
+                    <animation effect="slide" start="-150" end="0" delay="640" time="320" tween="cubic">WindowOpen</animation>
+					<visible>!Skin.HasSetting(WallVertical)</visible>
+                </control>
+                <control type="image">
+                    <left>1804</left>
+                    <top>150</top>
+                    <width>30</width>
+                    <height>786</height>
+                    <texture flipx="true">wall/wall_arrow.png</texture>
+                    <colordiffuse>$VAR[TitleColorVar]</colordiffuse>
+                    <animation effect="slide" start="150" end="0" delay="640" time="320" tween="cubic">WindowOpen</animation>
+					<visible>!Skin.HasSetting(WallVertical)</visible>
+                </control>
+                <control type="image">
+                    <left>570</left>
+                    <top>90</top>
+                    <width>786</width>
+                    <height>30</height>
+                    <texture flipy="true">wall/wall_arrow_vertical.png</texture>
+                    <colordiffuse>$VAR[TitleColorVar]</colordiffuse>
+					<animation effect="slide" start="0,-50" end="0" delay="640" time="320" tween="cubic">WindowOpen</animation>
+					<visible>Skin.HasSetting(WallVertical)</visible>
+                </control>	
+                <control type="image">
+                    <left>570</left>
+                    <top>935</top>
+                    <width>786</width>
+                    <height>30</height>
+                    <texture>wall/wall_arrow_vertical.png</texture>
+                    <colordiffuse>$VAR[TitleColorVar]</colordiffuse>
+					<animation effect="slide" start="0,50" end="0" delay="640" time="320" tween="cubic">WindowOpen</animation>
+					<visible>Skin.HasSetting(WallVertical)</visible>
+                </control>								
+            </control>
+            <include condition="!Skin.HasSetting(WallVertical)">WallHorizontal</include>
+            <include condition="Skin.HasSetting(WallVertical)">WallVertical</include>
+            <control type="label">
+                <left>150</left>
+                <top>1022</top>
+                <width>1622</width>
+                <height>5</height>
+                <align>center</align>
+                <label>$INFO[ListItem.Plot]</label>
+                <font>Font_ShowcaseMainLabel2_Caps</font>
+                <shadowcolor>floorshadow</shadowcolor>
+                <textcolor>floor</textcolor>
+                <visible>StringCompare(Container.FolderName,youtube)</visible>
+            </control>
+        </control>
+    </include>
+</includes>
