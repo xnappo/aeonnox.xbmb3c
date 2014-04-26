@@ -1392,7 +1392,8 @@
 			<include>Animation_Widgets</include>
 			<visible>![IsEmpty(Window(Home).Property(NextAired.1.Label)) + Substring(Control.GetLabel(4321),nextairedtv)]</visible>
 			<visible>![IsEmpty(Window(Home).Property(RecommendedMovie.1.Title)) + Substring(Control.GetLabel(4321),watchlistmovies)]</visible>
-			<visible>![IsEmpty(Window(Home).Property(RecommendedEpisode.1.Title)) + Substring(Control.GetLabel(4321),watchlisttv)]</visible>
+            <visible>!Skin.HasSetting(xbmb3c) + ![IsEmpty(Window(Home).Property(RecommendedEpisode.1.Title)) + Substring(Control.GetLabel(4321),watchlisttv)]</visible>
+            <visible>Skin.HasSetting(xbmb3c) + ![IsEmpty(Window(Home).Property(NextUpEpisodeMB3.1.EpisodeTitle)) + Substring(Control.GetLabel(4321),watchlisttv)]</visible>
 			<animation effect="slide" end="0,-258" time="320" tween="cubic" easing="inout" condition="Skin.HasSetting(lowermainmenu)">Conditional</animation>
 			<animation effect="slide" time="160" end="0,-38" condition="!Skin.HasSetting(lowermainmenu) + Skin.HasSetting(rsshomelow)">Conditional</animation>
 			<!--Unfocused widget -->
@@ -2137,7 +2138,7 @@
 			<visible>[Substring(Control.GetLabel(4321),featured) | Substring(Control.GetLabel(4321),panel)]</visible>
 			<visible>![IsEmpty(Window(Home).Property(NextAired.1.Label)) + Substring(Control.GetLabel(4321),nextairedtv)]</visible>
 			<visible>![IsEmpty(Window(Home).Property(RecommendedMovie.1.Title)) + Substring(Control.GetLabel(4321),watchlistmovies)]</visible>
-			<visible>![IsEmpty(Window(Home).Property(RecommendedEpisode.1.Title)) + Substring(Control.GetLabel(4321),watchlisttv)]</visible>
+            <visible>![IsEmpty(Window(Home).Property(NextUpEpisodeMB3.1.EpisodeTitle)) + Substring(Control.GetLabel(4321),watchlisttv)] | ![IsEmpty(Window(Home).Property(RecommendedEpisode.1.Title)) + Substring(Control.GetLabel(4321),watchlisttv)]</visible>
 			<include>Animation_Widgets</include>
 			<animation type="Conditional" condition="true">
 				<effect type="zoom" start="100" end="97" center="960,540" time="240" tween="cubic" />
@@ -5273,7 +5274,9 @@
 					<include condition="Library.HasContent(tvshows)">RandomEpisodesItems</include>
 					<include condition="Library.HasContent(tvshows) + !Window.IsActive(1124) + Substring(Skin.String(widgetlist),randomtvpanel)">RandomEpisodesItemsHome</include>
 					<include condition="Library.HasContent(tvshows)">WatchListTVItems</include>
-					<include condition="Library.HasContent(tvshows) + !Window.IsActive(1124) + Substring(Skin.String(widgetlist),watchlisttvpanel)">WatchListTVItemsHome</include>
+                    <include condition="Skin.HasSetting(xbmb3c)">WatchListTVItems</include>
+                    <include condition="!Skin.HasSetting(xbmb3c) + Library.HasContent(tvshows) + !Window.IsActive(1124) + Substring(Skin.String(widgetlist),watchlisttvpanel)">WatchListTVItemsHome</include>
+                    <include condition="Skin.HasSetting(xbmb3c) + !Window.IsActive(1124) + Substring(Skin.String(widgetlist),watchlisttvpanel)">WatchListTVItemsHome</include>
 					<include condition="System.HasAddon(script.games.rom.collection.browser) + [Window.IsActive(1124) | Substring(Skin.String(widgetlist),mostplayedromspanel)]">MostPlayedRomsItems</include>
 					<include condition="System.HasAddon(script.randomandlastitems) + [Window.IsActive(1124) | SubString(Skin.String(widgetlist),1custompanel)]">Custom1Widget</include>
 					<include condition="System.HasAddon(script.randomandlastitems) + [Window.IsActive(1124) | SubString(Skin.String(widgetlist),2custompanel)]">Custom2Widget</include>

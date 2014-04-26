@@ -3097,6 +3097,23 @@
             <property name="NavItem">item2.png</property>
             <onclick>SetFocus(5014)</onclick>
             <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(RecentMovie.2.Title))</visible>
+            <visible>!Skin.HasSetting(xbmb3c)</visible>
+        </item>
+        <item>
+            <label>$INFO[Window(Home).Property(LatestMovieMB3.2.Title)]</label>
+            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.2.Path)])</property>
+            <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.2.Art(clearlogo))]</property>
+            <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.2.Art(fanart))]</property>
+            <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.2.Runtime)]</property>
+            <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.2.Year)]</property>
+            <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.2.Rating)]</property>
+            <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.2.Top250)]</property>
+            <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.2.Art(poster))]</property>
+            <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.2.Plot)]</property>
+            <property name="NavItem">item1.png</property>
+            <onclick>SetFocus(5014)</onclick>
+            <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.2.Title))</visible>
+            <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>
         <item>
             <label>$INFO[Window(Home).Property(RecentMovie.3.Title)]</label>
@@ -3134,6 +3151,23 @@
             <property name="NavItem">item3.png</property>
             <onclick>SetFocus(5014)</onclick>
             <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(RecentMovie.3.Title))</visible>
+            <visible>!Skin.HasSetting(xbmb3c)</visible>
+        </item>
+        <item>
+            <label>$INFO[Window(Home).Property(LatestMovieMB3.3.Title)]</label>
+            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.3.Path)])</property>
+            <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.3.Art(clearlogo))]</property>
+            <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.3.Art(fanart))]</property>
+            <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.3.Runtime)]</property>
+            <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.3.Year)]</property>
+            <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.3.Rating)]</property>
+            <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.3.Top250)]</property>
+            <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.3.Art(poster))]</property>
+            <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.3.Plot)]</property>
+            <property name="NavItem">item1.png</property>
+            <onclick>SetFocus(5014)</onclick>
+            <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.3.Title))</visible>
+            <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>
         <item>
             <label>$INFO[Window(Home).Property(RecentMovie.4.Title)]</label>
@@ -3171,6 +3205,23 @@
             <property name="NavItem">item4.png</property>
             <onclick>SetFocus(5014)</onclick>
             <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(RecentMovie.4.Title))</visible>
+            <visible>!Skin.HasSetting(xbmb3c)</visible>
+        </item>
+        <item>
+            <label>$INFO[Window(Home).Property(LatestMovieMB3.4.Title)]</label>
+            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.4.Path)])</property>
+            <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.4.Art(clearlogo))]</property>
+            <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.4.Art(fanart))]</property>
+            <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.4.Runtime)]</property>
+            <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.4.Year)]</property>
+            <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.4.Rating)]</property>
+            <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.4.Top250)]</property>
+            <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.4.Art(poster))]</property>
+            <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.4.Plot)]</property>
+            <property name="NavItem">item1.png</property>
+            <onclick>SetFocus(5014)</onclick>
+            <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.4.Title))</visible>
+            <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>
         <item>
             <label>$INFO[Window(Home).Property(RecentMovie.5.Title)]</label>
@@ -3208,6 +3259,23 @@
             <property name="NavItem">item5.png</property>
             <onclick>SetFocus(5014)</onclick>
             <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(RecentMovie.5.Title))</visible>
+            <visible>!Skin.HasSetting(xbmb3c)</visible>
+        </item>
+        <item>
+            <label>$INFO[Window(Home).Property(LatestMovieMB3.5.Title)]</label>
+            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.5.Path)])</property>
+            <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.5.Art(clearlogo))]</property>
+            <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.5.Art(fanart))]</property>
+            <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.5.Runtime)]</property>
+            <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.5.Year)]</property>
+            <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.5.Rating)]</property>
+            <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.5.Top250)]</property>
+            <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.5.Art(poster))]</property>
+            <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.5.Plot)]</property>
+            <property name="NavItem">item1.png</property>
+            <onclick>SetFocus(5014)</onclick>
+            <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.5.Title))</visible>
+            <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>
         <item>
             <label>$INFO[Window(Home).Property(RecentMovie.6.Title)]</label>
@@ -3245,6 +3313,23 @@
             <property name="NavItem">item6.png</property>
             <onclick>SetFocus(5014)</onclick>
             <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(RecentMovie.6.Title))</visible>
+            <visible>!Skin.HasSetting(xbmb3c)</visible>
+        </item>
+        <item>
+            <label>$INFO[Window(Home).Property(LatestMovieMB3.6.Title)]</label>
+            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.6.Path)])</property>
+            <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.6.Art(clearlogo))]</property>
+            <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.6.Art(fanart))]</property>
+            <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.6.Runtime)]</property>
+            <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.6.Year)]</property>
+            <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.6.Rating)]</property>
+            <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.6.Top250)]</property>
+            <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.6.Art(poster))]</property>
+            <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.6.Plot)]</property>
+            <property name="NavItem">item1.png</property>
+            <onclick>SetFocus(5014)</onclick>
+            <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.6.Title))</visible>
+            <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>
         <item>
             <label>$INFO[Window(Home).Property(RecentMovie.7.Title)]</label>
@@ -3282,6 +3367,23 @@
             <property name="NavItem">item7.png</property>
             <onclick>SetFocus(5014)</onclick>
             <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(RecentMovie.7.Title))</visible>
+            <visible>!Skin.HasSetting(xbmb3c)</visible>
+        </item>
+        <item>
+            <label>$INFO[Window(Home).Property(LatestMovieMB3.7.Title)]</label>
+            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.7.Path)])</property>
+            <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.7.Art(clearlogo))]</property>
+            <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.7.Art(fanart))]</property>
+            <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.7.Runtime)]</property>
+            <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.7.Year)]</property>
+            <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.7.Rating)]</property>
+            <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.7.Top250)]</property>
+            <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.7.Art(poster))]</property>
+            <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.7.Plot)]</property>
+            <property name="NavItem">item1.png</property>
+            <onclick>SetFocus(5014)</onclick>
+            <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.7.Title))</visible>
+            <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>
         <item>
             <label>$INFO[Window(Home).Property(RecentMovie.8.Title)]</label>
@@ -3319,6 +3421,23 @@
             <property name="NavItem">item8.png</property>
             <onclick>SetFocus(5014)</onclick>
             <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(RecentMovie.8.Title))</visible>
+            <visible>!Skin.HasSetting(xbmb3c)</visible>
+        </item>
+        <item>
+            <label>$INFO[Window(Home).Property(LatestMovieMB3.8.Title)]</label>
+            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.8.Path)])</property>
+            <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.8.Art(clearlogo))]</property>
+            <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.8.Art(fanart))]</property>
+            <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.8.Runtime)]</property>
+            <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.8.Year)]</property>
+            <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.8.Rating)]</property>
+            <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.8.Top250)]</property>
+            <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.8.Art(poster))]</property>
+            <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.8.Plot)]</property>
+            <property name="NavItem">item1.png</property>
+            <onclick>SetFocus(5014)</onclick>
+            <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.8.Title))</visible>
+            <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>
     </include>
     <include name="BornActorsItems">
@@ -4180,6 +4299,25 @@
             <thumb>$INFO[Window(Home).Property(RecommendedEpisode.1.Art(thumb))]</thumb>
             <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.1.Title))</visible>
+            <visible>!Skin.HasSetting(xbmb3c)</visible>            
+        </item>
+        <item>
+            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.1.EpisodeTitle)]</label>
+            <label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.1.ShowTitle)]</label2>
+            <property name="EpisodeNumber">$INFO[Window(Home).Property(NextUpEpisodeMB3.1.EpisodeNo)]</property>
+            <property name="Path">$INFO[Window(Home).Property(NextUpEpisodeMB3.1.Path)]</property>
+            <property name="Rating">$INFO[Window(Home).Property(NextUpEpisodeMB3.1.Rating)]</property>
+            <property name="Fanart">$INFO[Window(Home).Property(NextUpEpisodeMB3.1.Art(tvshow.fanart))]</property>
+            <property name="Logo">$INFO[Window(Home).Property(NextUpEpisodeMB3.1.Art(tvshow.clearlogo))]</property>
+            <property name="Banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.1.Art(tvshow.banner))]</property>
+            <property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.1.Art(tvshow.poster))]</property>
+            <property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.1.Plot)]</property>
+            <property name="NavItem">item1.png</property>
+            <onclick>SetFocus(5014)</onclick>
+            <thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.1.Art(thumb))]</thumb>
+            <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.1.EpisodeTitle))</visible>
+            <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
         <item>
             <label>$INFO[Window(Home).Property(RecommendedEpisode.2.Title)]</label>
@@ -4209,6 +4347,25 @@
             <thumb>$INFO[Window(Home).Property(RecommendedEpisode.2.Art(thumb))]</thumb>
             <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.2.Title))</visible>
+            <visible>!Skin.HasSetting(xbmb3c)</visible>            
+        </item>
+        <item>
+            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.2.EpisodeTitle)]</label>
+            <label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.2.ShowTitle)]</label2>
+            <property name="EpisodeNumber">$INFO[Window(Home).Property(NextUpEpisodeMB3.2.EpisodeNo)]</property>
+            <property name="Path">$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Path)]</property>
+            <property name="Rating">$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Rating)]</property>
+            <property name="Fanart">$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Art(tvshow.fanart))]</property>
+            <property name="Logo">$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Art(tvshow.clearlogo))]</property>
+            <property name="Banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Art(tvshow.banner))]</property>
+            <property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Art(tvshow.poster))]</property>
+            <property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Plot)]</property>
+            <property name="NavItem">item1.png</property>
+            <onclick>SetFocus(5014)</onclick>
+            <thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Art(thumb))]</thumb>
+            <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.2.EpisodeTitle))</visible>
+            <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
         <item>
             <label>$INFO[Window(Home).Property(RecommendedEpisode.3.Title)]</label>
@@ -4238,6 +4395,25 @@
             <thumb>$INFO[Window(Home).Property(RecommendedEpisode.3.Art(thumb))]</thumb>
             <visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.3.Title))</visible>
             <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>!Skin.HasSetting(xbmb3c)</visible>            
+        </item>
+        <item>
+            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.3.EpisodeTitle)]</label>
+            <label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.3.ShowTitle)]</label2>
+            <property name="EpisodeNumber">$INFO[Window(Home).Property(NextUpEpisodeMB3.3.EpisodeNo)]</property>
+            <property name="Path">$INFO[Window(Home).Property(NextUpEpisodeMB3.3.Path)]</property>
+            <property name="Rating">$INFO[Window(Home).Property(NextUpEpisodeMB3.3.Rating)]</property>
+            <property name="Fanart">$INFO[Window(Home).Property(NextUpEpisodeMB3.3.Art(tvshow.fanart))]</property>
+            <property name="Logo">$INFO[Window(Home).Property(NextUpEpisodeMB3.3.Art(tvshow.clearlogo))]</property>
+            <property name="Banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.3.Art(tvshow.banner))]</property>
+            <property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.3.Art(tvshow.poster))]</property>
+            <property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.3.Plot)]</property>
+            <property name="NavItem">item1.png</property>
+            <onclick>SetFocus(5014)</onclick>
+            <thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.3.Art(thumb))]</thumb>
+            <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.3.EpisodeTitle))</visible>
+            <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
         <item>
             <label>$INFO[Window(Home).Property(RecommendedEpisode.4.Title)]</label>
@@ -4267,6 +4443,25 @@
             <thumb>$INFO[Window(Home).Property(RecommendedEpisode.4.Art(thumb))]</thumb>
             <visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.4.Title))</visible>
             <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>!Skin.HasSetting(xbmb3c)</visible>            
+        </item>
+        <item>
+            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.4.EpisodeTitle)]</label>
+            <label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.4.ShowTitle)]</label2>
+            <property name="EpisodeNumber">$INFO[Window(Home).Property(NextUpEpisodeMB3.4.EpisodeNo)]</property>
+            <property name="Path">$INFO[Window(Home).Property(NextUpEpisodeMB3.4.Path)]</property>
+            <property name="Rating">$INFO[Window(Home).Property(NextUpEpisodeMB3.4.Rating)]</property>
+            <property name="Fanart">$INFO[Window(Home).Property(NextUpEpisodeMB3.4.Art(tvshow.fanart))]</property>
+            <property name="Logo">$INFO[Window(Home).Property(NextUpEpisodeMB3.4.Art(tvshow.clearlogo))]</property>
+            <property name="Banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.4.Art(tvshow.banner))]</property>
+            <property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.4.Art(tvshow.poster))]</property>
+            <property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.4.Plot)]</property>
+            <property name="NavItem">item1.png</property>
+            <onclick>SetFocus(5014)</onclick>
+            <thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.4.Art(thumb))]</thumb>
+            <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.4.EpisodeTitle))</visible>
+            <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
     </include>
     <include name="WatchListTVItemsHome">
@@ -4298,6 +4493,25 @@
             <thumb>$INFO[Window(Home).Property(RecommendedEpisode.5.Art(thumb))]</thumb>
             <visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.5.Title))</visible>
             <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>!Skin.HasSetting(xbmb3c)</visible>            
+        </item>
+        <item>
+            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.5.EpisodeTitle)]</label>
+            <label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.5.ShowTitle)]</label2>
+            <property name="EpisodeNumber">$INFO[Window(Home).Property(NextUpEpisodeMB3.5.EpisodeNo)]</property>
+            <property name="Path">$INFO[Window(Home).Property(NextUpEpisodeMB3.5.Path)]</property>
+            <property name="Rating">$INFO[Window(Home).Property(NextUpEpisodeMB3.5.Rating)]</property>
+            <property name="Fanart">$INFO[Window(Home).Property(NextUpEpisodeMB3.5.Art(tvshow.fanart))]</property>
+            <property name="Logo">$INFO[Window(Home).Property(NextUpEpisodeMB3.5.Art(tvshow.clearlogo))]</property>
+            <property name="Banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.5.Art(tvshow.banner))]</property>
+            <property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.5.Art(tvshow.poster))]</property>
+            <property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.5.Plot)]</property>
+            <property name="NavItem">item1.png</property>
+            <onclick>SetFocus(5014)</onclick>
+            <thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.5.Art(thumb))]</thumb>
+            <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.5.EpisodeTitle))</visible>
+            <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
         <item>
             <label>$INFO[Window(Home).Property(RecommendedEpisode.6.Title)]</label>
@@ -4327,6 +4541,25 @@
             <thumb>$INFO[Window(Home).Property(RecommendedEpisode.6.Art(thumb))]</thumb>
             <visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.6.Title))</visible>
             <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>!Skin.HasSetting(xbmb3c)</visible>            
+        </item>
+        <item>
+            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.6.EpisodeTitle)]</label>
+            <label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.6.ShowTitle)]</label2>
+            <property name="EpisodeNumber">$INFO[Window(Home).Property(NextUpEpisodeMB3.6.EpisodeNo)]</property>
+            <property name="Path">$INFO[Window(Home).Property(NextUpEpisodeMB3.6.Path)]</property>
+            <property name="Rating">$INFO[Window(Home).Property(NextUpEpisodeMB3.6.Rating)]</property>
+            <property name="Fanart">$INFO[Window(Home).Property(NextUpEpisodeMB3.6.Art(tvshow.fanart))]</property>
+            <property name="Logo">$INFO[Window(Home).Property(NextUpEpisodeMB3.6.Art(tvshow.clearlogo))]</property>
+            <property name="Banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.6.Art(tvshow.banner))]</property>
+            <property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.6.Art(tvshow.poster))]</property>
+            <property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.6.Plot)]</property>
+            <property name="NavItem">item1.png</property>
+            <onclick>SetFocus(5014)</onclick>
+            <thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.6.Art(thumb))]</thumb>
+            <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.6.EpisodeTitle))</visible>
+            <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
         <item>
             <label>$INFO[Window(Home).Property(RecommendedEpisode.7.Title)]</label>
@@ -4356,6 +4589,25 @@
             <thumb>$INFO[Window(Home).Property(RecommendedEpisode.7.Art(thumb))]</thumb>
             <visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.7.Title))</visible>
             <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>!Skin.HasSetting(xbmb3c)</visible>            
+        </item>
+        <item>
+            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.7.EpisodeTitle)]</label>
+            <label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.7.ShowTitle)]</label2>
+            <property name="EpisodeNumber">$INFO[Window(Home).Property(NextUpEpisodeMB3.7.EpisodeNo)]</property>
+            <property name="Path">$INFO[Window(Home).Property(NextUpEpisodeMB3.7.Path)]</property>
+            <property name="Rating">$INFO[Window(Home).Property(NextUpEpisodeMB3.7.Rating)]</property>
+            <property name="Fanart">$INFO[Window(Home).Property(NextUpEpisodeMB3.7.Art(tvshow.fanart))]</property>
+            <property name="Logo">$INFO[Window(Home).Property(NextUpEpisodeMB3.7.Art(tvshow.clearlogo))]</property>
+            <property name="Banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.7.Art(tvshow.banner))]</property>
+            <property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.7.Art(tvshow.poster))]</property>
+            <property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.7.Plot)]</property>
+            <property name="NavItem">item1.png</property>
+            <onclick>SetFocus(5014)</onclick>
+            <thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.7.Art(thumb))]</thumb>
+            <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.7.EpisodeTitle))</visible>
+            <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
         <item>
             <label>$INFO[Window(Home).Property(RecommendedEpisode.8.Title)]</label>
@@ -4385,6 +4637,25 @@
             <thumb>$INFO[Window(Home).Property(RecommendedEpisode.8.Art(thumb))]</thumb>
             <visible>!IsEmpty(Window(Home).Property(RecommendedEpisode.8.Title))</visible>
             <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>!Skin.HasSetting(xbmb3c)</visible>            
+        </item>
+        <item>
+            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.8.EpisodeTitle)]</label>
+            <label2>$INFO[Window(Home).Property(NextUpEpisodeMB3.8.ShowTitle)]</label2>
+            <property name="EpisodeNumber">$INFO[Window(Home).Property(NextUpEpisodeMB3.8.EpisodeNo)]</property>
+            <property name="Path">$INFO[Window(Home).Property(NextUpEpisodeMB3.8.Path)]</property>
+            <property name="Rating">$INFO[Window(Home).Property(NextUpEpisodeMB3.8.Rating)]</property>
+            <property name="Fanart">$INFO[Window(Home).Property(NextUpEpisodeMB3.8.Art(tvshow.fanart))]</property>
+            <property name="Logo">$INFO[Window(Home).Property(NextUpEpisodeMB3.8.Art(tvshow.clearlogo))]</property>
+            <property name="Banner">$INFO[Window(Home).Property(NextUpEpisodeMB3.8.Art(tvshow.banner))]</property>
+            <property name="Poster">$INFO[Window(Home).Property(NextUpEpisodeMB3.8.Art(tvshow.poster))]</property>
+            <property name="Plot">$INFO[Window(Home).Property(NextUpEpisodeMB3.8.Plot)]</property>
+            <property name="NavItem">item1.png</property>
+            <onclick>SetFocus(5014)</onclick>
+            <thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.8.Art(thumb))]</thumb>
+            <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.8.EpisodeTitle))</visible>
+            <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
     </include>
     <include name="RandomEpisodesItems">
