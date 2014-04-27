@@ -590,14 +590,22 @@
                     <itemgap>0</itemgap>
                     <pagecontrol>-</pagecontrol>
                     <control type="radiobutton" id="1901">
-                        <label>Media Browser Mode</label>
+                        <label>Media Browser Video Mode</label>
                         <include>Default_SettingRadioButton</include>
                         <onclick>Skin.ToggleSetting(xbmb3c)</onclick>
                         <onclick>Skin.Reset(defaultsettings)</onclick>                        
                         <onclick>ReplaceWindow(Home)</onclick>
                         <selected>Skin.HasSetting(xbmb3c)</selected>
                     </control>                    
-                </control>                
+                    <control type="radiobutton" id="1902">
+                        <label>Media Browser Music Mode</label>
+                        <include>Default_SettingRadioButton</include>
+                        <onclick>Skin.ToggleSetting(xbmb3cmusic)</onclick>
+                        <onclick>Skin.Reset(defaultsettings)</onclick>                        
+                        <onclick>ReplaceWindow(Home)</onclick>
+                        <selected>Skin.HasSetting(xbmb3cmusic)</selected>
+                    </control>                    
+                    </control>                
             </control>            
             <control type="group">
                 <left>1170</left>
