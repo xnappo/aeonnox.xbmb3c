@@ -5277,7 +5277,7 @@
 					<include condition="!Skin.HasSetting(xbmb3c) + Library.HasContent(tvshows) + !Window.IsActive(1124) + Substring(Skin.String(widgetlist),randomtvpanel)">RandomEpisodesItemsHome</include>
 					<include condition="Skin.HasSetting(xbmb3c)">RandomEpisodesItems</include>
 					<include condition="Skin.HasSetting(xbmb3c) + !Window.IsActive(1124) + Substring(Skin.String(widgetlist),randomtvpanel)">RandomEpisodesItemsHome</include>                    
-					<include condition="Library.HasContent(tvshows)">WatchListTVItems</include>
+					<include condition="!Skin.HasSetting(xbmb3c) + Library.HasContent(tvshows)">WatchListTVItems</include>
                     <include condition="Skin.HasSetting(xbmb3c)">WatchListTVItems</include>
                     <include condition="!Skin.HasSetting(xbmb3c) + Library.HasContent(tvshows) + !Window.IsActive(1124) + Substring(Skin.String(widgetlist),watchlisttvpanel)">WatchListTVItemsHome</include>
                     <include condition="Skin.HasSetting(xbmb3c) + !Window.IsActive(1124) + Substring(Skin.String(widgetlist),watchlisttvpanel)">WatchListTVItemsHome</include>
