@@ -875,7 +875,23 @@
     <include name="SearchMainMenu">
         <item id="8">
             <label fallback="137">$INFO[Skin.String(SearchHomeItem.Label)]</label>
-            <property name="Path" fallback="RunScript(script.globalsearch)" condition="!Skin.HasSetting(xbmb3c)">$INFO[Skin.String(SearchHomeItem.Path)]</property>
+            <property name="Path" fallback="RunScript(script.globalsearch)">RunScript(script.globalsearch)</property>
+            <property name="Type" fallback="custom">$INFO[Skin.String(SearchHomeItem.Type)]</property>
+            <property name="SubMenu" fallback="none">$INFO[Skin.String(SearchHomeItem.SubMenu)]</property>
+            <property name="InfoLine" fallback="none">$INFO[Skin.String(SearchHomeItem.InfoLine)]</property>
+            <property name="BigIcon" fallback="special://skin/extras/BigIcons/Search.png">$INFO[Skin.String(SearchHomeItem.Icon)]</property>
+            <property name="DisableIcon">$INFO[Skin.String(SearchHomeItem.Disable)]</property>
+            <property name="Widget2Title">$INFO[Skin.String(SearchHomeItem.Widget2Title)]</property>
+            <property name="WidgetTitle">$INFO[Skin.String(SearchHomeItem.WidgetTitle)]</property>
+            <property name="Widget2">$INFO[Skin.String(SearchHomeItem.Widget2)]</property>
+            <property name="Widget">$INFO[Skin.String(SearchHomeItem.Widget)]</property>
+            <onclick>SetProperty($INFO[Window(home).Property(MenuName)],SearchHomeItem,home)</onclick>
+            <onclick>SetFocus(9006)</onclick>
+            <icon fallback="special://skin/backgrounds/search/">$INFO[Skin.String(SearchHomeItem.MultiFanart)]</icon>
+            <visible>!Skin.HasSetting(xbmb3c)</visible>
+        </item>
+        <item id="8">
+            <label fallback="137">$INFO[Skin.String(SearchHomeItem.Label)]</label>
             <property name="Path" fallback="$INFO[Window(Home).Property(xbmb3c.std.search.0.path)]" condition="Skin.HasSetting(xbmb3c)">$INFO[Window(Home).Property(xbmb3c.std.search.0.path)]</property>
             <property name="Type" fallback="custom">$INFO[Skin.String(SearchHomeItem.Type)]</property>
             <property name="SubMenu" fallback="none">$INFO[Skin.String(SearchHomeItem.SubMenu)]</property>
@@ -889,7 +905,9 @@
             <onclick>SetProperty($INFO[Window(home).Property(MenuName)],SearchHomeItem,home)</onclick>
             <onclick>SetFocus(9006)</onclick>
             <icon fallback="special://skin/backgrounds/search/">$INFO[Skin.String(SearchHomeItem.MultiFanart)]</icon>
+            <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>
+        
     </include>
     <include name="SettingsMainMenu">
         <item id="5">
@@ -966,8 +984,7 @@
     <include name="TVShowsMainMenu">
         <item id="11">
             <label fallback="31503">$INFO[Skin.String(TVShowHomeItem.Label)]</label>
-            <property name="Path" fallback="ActivateWindow(Videos,TVShowTitles,return)" condition="!Skin.HasSetting(xbmb3c)">$INFO[Skin.String(TVShowHomeItem.Path)]</property>
-            <property name="Path" fallback="ActivateWindow(Videos,TVShowTitles,return)" condition="Skin.HasSetting(xbmb3c)">$INFO[Window(Home).Property(xbmb3c.std.tvshows.0.path)]</property>
+            <property name="Path" fallback="ActivateWindow(Videos,TVShowTitles,return)">ActivateWindow(Videos,TVShowTitles,return)</property>
             <property name="Type" fallback="custom">$INFO[Skin.String(TVShowHomeItem.Type)]</property>
             <property name="SubMenu" fallback="tv">$INFO[Skin.String(TVShowHomeItem.SubMenu)]</property>
             <property name="InfoLine" fallback="tvshows">$INFO[Skin.String(TVShowHomeItem.InfoLine)]</property>
@@ -980,13 +997,30 @@
             <onclick>SetProperty($INFO[Window(home).Property(MenuName)],TVShowHomeItem,home)</onclick>
             <onclick>SetFocus(9006)</onclick>
             <icon fallback="special://skin/backgrounds/tvshows/">$INFO[Skin.String(TVShowHomeItem.MultiFanart)]</icon>
+            <visible>!Skin.HasSetting(xbmb3c)</visible>
         </item>
-    </include>
+        <item id="11">
+            <label fallback="31503">$INFO[Skin.String(TVShowHomeItem.Label)]</label>
+            <property name="Path" fallback="ActivateWindow(Videos,TVShowTitles,return)">$INFO[Window(Home).Property(xbmb3c.std.tvshows.0.path)]</property>
+            <property name="Type" fallback="custom">$INFO[Skin.String(TVShowHomeItem.Type)]</property>
+            <property name="SubMenu" fallback="tv">$INFO[Skin.String(TVShowHomeItem.SubMenu)]</property>
+            <property name="InfoLine" fallback="tvshows">$INFO[Skin.String(TVShowHomeItem.InfoLine)]</property>
+            <property name="BigIcon" fallback="special://skin/extras/BigIcons/Television.png">$INFO[Skin.String(TVShowHomeItem.Icon)]</property>
+            <property name="DisableIcon">$INFO[Skin.String(TVShowHomeItem.Disable)]</property>
+            <property name="Widget2Title">$INFO[Skin.String(TVShowHomeItem.Widget2Title)]</property>
+            <property name="WidgetTitle">$INFO[Skin.String(TVShowHomeItem.WidgetTitle)]</property>
+            <property name="Widget2">$INFO[Skin.String(TVShowHomeItem.Widget2)]</property>
+            <property name="Widget">$INFO[Skin.String(TVShowHomeItem.Widget)]</property>
+            <onclick>SetProperty($INFO[Window(home).Property(MenuName)],TVShowHomeItem,home)</onclick>
+            <onclick>SetFocus(9006)</onclick>
+            <icon fallback="special://skin/backgrounds/tvshows/">$INFO[Skin.String(TVShowHomeItem.MultiFanart)]</icon>
+            <visible>Skin.HasSetting(xbmb3c)</visible>
+        </item>
+     </include>
     <include name="MoviesMainMenu">
         <item id="10">
             <label fallback="31502">$INFO[Skin.String(MovieHomeItem.Label)]</label>
-            <property name="Path" fallback="ActivateWindow(Videos,MovieTitles,return)" condition="!Skin.HasSetting(xbmb3c)">$INFO[Skin.String(MovieHomeItem.Path)]</property>
-            <property name="Path" fallback="ActivateWindow(Videos,MovieTitles,return)" condition="Skin.HasSetting(xbmb3c)">$INFO[Window(Home).Property(xbmb3c.std.movies.0.path)]</property>
+            <property name="Path" fallback="ActivateWindow(Videos,MovieTitles,return)">ActivateWindow(Videos,MovieTitles,return)</property>
             <property name="Type" fallback="custom">$INFO[Skin.String(MovieHomeItem.Type)]</property>
             <property name="SubMenu" fallback="movies">$INFO[Skin.String(MovieHomeItem.SubMenu)]</property>
             <property name="InfoLine" fallback="movies">$INFO[Skin.String(MovieHomeItem.InfoLine)]</property>
@@ -999,13 +1033,30 @@
             <onclick>SetProperty($INFO[Window(home).Property(MenuName)],MovieHomeItem,home)</onclick>
             <onclick>SetFocus(9006)</onclick>
             <icon fallback="special://skin/backgrounds/movies/">$INFO[Skin.String(MovieHomeItem.MultiFanart)]</icon>
+            <visible>!Skin.HasSetting(xbmb3c)</visible>
         </item>
-    </include>
+        <item id="10">
+            <label fallback="31502">$INFO[Skin.String(MovieHomeItem.Label)]</label>
+            <property name="Path" fallback="ActivateWindow(Videos,MovieTitles,return)">$INFO[Window(Home).Property(xbmb3c.std.movies.0.path)]</property>
+            <property name="Type" fallback="custom">$INFO[Skin.String(MovieHomeItem.Type)]</property>
+            <property name="SubMenu" fallback="movies">$INFO[Skin.String(MovieHomeItem.SubMenu)]</property>
+            <property name="InfoLine" fallback="movies">$INFO[Skin.String(MovieHomeItem.InfoLine)]</property>
+            <property name="BigIcon" fallback="special://skin/extras/BigIcons/Film.png">$INFO[Skin.String(MovieHomeItem.Icon)]</property>
+            <property name="DisableIcon">$INFO[Skin.String(MovieHomeItem.Disable)]</property>
+            <property name="Widget2Title">$INFO[Skin.String(MovieHomeItem.Widget2Title)]</property>
+            <property name="WidgetTitle">$INFO[Skin.String(MovieHomeItem.WidgetTitle)]</property>
+            <property name="Widget2">$INFO[Skin.String(MovieHomeItem.Widget2)]</property>
+            <property name="Widget">$INFO[Skin.String(MovieHomeItem.Widget)]</property>
+            <onclick>SetProperty($INFO[Window(home).Property(MenuName)],MovieHomeItem,home)</onclick>
+            <onclick>SetFocus(9006)</onclick>
+            <icon fallback="special://skin/backgrounds/movies/">$INFO[Skin.String(MovieHomeItem.MultiFanart)]</icon>
+            <visible>Skin.HasSetting(xbmb3c)</visible>
+        </item>
+        </include>
     <include name="MusicMainMenu">
         <item id="3">
             <label fallback="31501">$INFO[Skin.String(MusicHomeItem.Label)]</label>
-            <property name="Path" fallback="ActivateWindow(music)" condition="!Skin.HasSetting(xbmb3cmusic)">$INFO[Skin.String(MusicHomeItem.Path)]</property>
-            <property name="Path" fallback="ActivateWindow(music)" condition="Skin.HasSetting(xbmb3cmusic)">$INFO[Window(Home).Property(xbmb3c.std.music.0.path)]</property>
+            <property name="Path" fallback="ActivateWindow(music)">ActivateWindow(music)</property>
             <property name="Type" fallback="custom">$INFO[Skin.String(MusicHomeItem.Type)]</property>
             <property name="SubMenu" fallback="music">$INFO[Skin.String(MusicHomeItem.SubMenu)]</property>
             <property name="InfoLine" fallback="music">$INFO[Skin.String(MusicHomeItem.InfoLine)]</property>
@@ -1018,8 +1069,27 @@
             <onclick>SetProperty($INFO[Window(home).Property(MenuName)],MusicHomeItem,home)</onclick>
             <onclick>SetFocus(9006)</onclick>
             <icon fallback="special://skin/backgrounds/music/">$INFO[Skin.String(MusicHomeItem.MultiFanart)]</icon>
-        </item>
-    </include>
+            <visible>!Skin.HasSetting(xbmb3cmusic)</visible>
+            </item>
+        <item id="3">
+            <label fallback="31501">$INFO[Skin.String(MusicHomeItem.Label)]</label>
+            <property name="Path" fallback="ActivateWindow(music)">$INFO[Window(Home).Property(xbmb3c.std.music.0.path)]</property>
+            <property name="Type" fallback="custom">$INFO[Skin.String(MusicHomeItem.Type)]</property>
+            <property name="SubMenu" fallback="music">$INFO[Skin.String(MusicHomeItem.SubMenu)]</property>
+            <property name="InfoLine" fallback="music">$INFO[Skin.String(MusicHomeItem.InfoLine)]</property>
+            <property name="BigIcon" fallback="special://skin/extras/BigIcons/Headphone.png">$INFO[Skin.String(MusicHomeItem.Icon)]</property>
+            <property name="DisableIcon">$INFO[Skin.String(MusicHomeItem.Disable)]</property>
+            <property name="Widget2Title">$INFO[Skin.String(MusicHomeItem.Widget2Title)]</property>
+            <property name="WidgetTitle">$INFO[Skin.String(MusicHomeItem.WidgetTitle)]</property>
+            <property name="Widget2">$INFO[Skin.String(MusicHomeItem.Widget2)]</property>
+            <property name="Widget">$INFO[Skin.String(MusicHomeItem.Widget)]</property>
+            <onclick>SetProperty($INFO[Window(home).Property(MenuName)],MusicHomeItem,home)</onclick>
+            <onclick>SetFocus(9006)</onclick>
+            <icon fallback="special://skin/backgrounds/music/">$INFO[Skin.String(MusicHomeItem.MultiFanart)]</icon>
+            <visible>Skin.HasSetting(xbmb3cmusic)</visible>
+            </item>
+
+        </include>
     <include name="MusicVideosMainMenu">
         <item id="33">
             <label fallback="20389">$INFO[Skin.String(MusicVideosHomeItem.Label)]</label>
