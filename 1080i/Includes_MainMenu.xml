@@ -1049,7 +1049,7 @@
             <property name="Widget">$INFO[Skin.String(MovieHomeItem.Widget)]</property>
             <onclick>SetProperty($INFO[Window(home).Property(MenuName)],MovieHomeItem,home)</onclick>
             <onclick>SetFocus(9006)</onclick>
-            <icon fallback="special://skin/backgrounds/movies/">$INFO[Window(Home).Property(MB3.Background.Movie.FanArt)]</icon>
+            <icon fallback="special://skin/backgrounds/movies/">$INFO[Skin.String(MovieHomeItem.MultiFanart)]</icon>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>
         </include>
