@@ -340,16 +340,16 @@
             <height>118</height>
             <font>Font_Reg57</font>
             <textcolor>00FFFFFF</textcolor>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.0.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.1.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.2.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.3.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.4.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.5.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.6.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.7.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.8.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.9.Art(fanart)]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.0.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.1.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.2.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.3.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.4.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.5.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.6.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.7.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.8.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.9.Art(fanart))]</label>
             <label>$INFO[Window(Home).Property(RandomMovie.1.Art(fanart))]</label>
             <label>$INFO[Window(Home).Property(RandomMovie.2.Art(fanart))]</label>
             <label>$INFO[Window(Home).Property(RandomMovie.3.Art(fanart))]</label>
@@ -378,16 +378,16 @@
             <height>118</height>
             <font>Font_Reg57</font>
             <textcolor>00FFFFFF</textcolor>
-            <label>$INFO[Window(Home).Property(LatestMovieMB3.0.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(LatestMovieMB3.1.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(LatestMovieMB3.2.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(LatestMovieMB3.3.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(LatestMovieMB3.4.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(LatestMovieMB3.5.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(LatestMovieMB3.6.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(LatestMovieMB3.7.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(LatestMovieMB3.8.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(LatestMovieMB3.9.Art(fanart)]</label>
+            <label>$INFO[Window(Home).Property(LatestMovieMB3.0.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(LatestMovieMB3.1.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(LatestMovieMB3.2.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(LatestMovieMB3.3.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(LatestMovieMB3.4.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(LatestMovieMB3.5.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(LatestMovieMB3.6.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(LatestMovieMB3.7.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(LatestMovieMB3.8.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(LatestMovieMB3.9.Art(fanart))]</label>
             <label>$INFO[Window(Home).Property(RecentMovie.1.Art(fanart))]</label>
             <label>$INFO[Window(Home).Property(RecentMovie.2.Art(fanart))]</label>
             <label>$INFO[Window(Home).Property(RecentMovie.3.Art(fanart))]</label>
@@ -417,16 +417,16 @@
             <height>118</height>
             <font>Font_Reg57</font>
             <textcolor>00FFFFFF</textcolor>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.0.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.1.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.2.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.3.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.4.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.5.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.6.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.7.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.8.Art(fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomMovieMB3.9.Art(fanart)]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.0.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.1.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.2.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.3.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.4.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.5.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.6.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.7.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.8.Art(fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomMovieMB3.9.Art(fanart))]</label>
             <label>$INFO[Window(Home).Property(RecommendedMovie.1.Art(fanart))]</label>
             <label>$INFO[Window(Home).Property(RecommendedMovie.2.Art(fanart))]</label>
             <label>$INFO[Window(Home).Property(RecommendedMovie.3.Art(fanart))]</label>
@@ -445,16 +445,16 @@
             <height>118</height>
             <font>Font_Reg57</font>
             <textcolor>00FFFFFF</textcolor>
-            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.0.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.1.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.2.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.3.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.4.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.5.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.6.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.7.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.8.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.9.Art(tvshow.fanart)]</label>
+            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.0.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.1.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.2.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.3.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.4.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.5.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.6.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.7.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.8.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(RandomEpisodeMB3.9.Art(tvshow.fanart))]</label>
             <label>$INFO[Window(Home).Property(RandomEpisode.1.Art(tvshow.fanart))]</label>
             <label>$INFO[Window(Home).Property(RandomEpisode.2.Art(tvshow.fanart))]</label>
             <label>$INFO[Window(Home).Property(RandomEpisode.3.Art(tvshow.fanart))]</label>
@@ -483,16 +483,16 @@
             <height>118</height>
             <font>Font_Reg57</font>
             <textcolor>00FFFFFF</textcolor>
-            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.0.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.1.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.2.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.3.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.4.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.5.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.6.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.7.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.8.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.9.Art(tvshow.fanart)]</label>
+            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.0.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.1.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.2.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.3.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.4.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.5.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.6.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.7.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.8.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(LatestEpisodeMB3.9.Art(tvshow.fanart))]</label>
             <label>$INFO[Window(Home).Property(RecentEpisode.1.Art(tvshow.fanart))]</label>
             <label>$INFO[Window(Home).Property(RecentEpisode.2.Art(tvshow.fanart))]</label>
             <label>$INFO[Window(Home).Property(RecentEpisode.3.Art(tvshow.fanart))]</label>
@@ -521,27 +521,16 @@
             <height>118</height>
             <font>Font_Reg57</font>
             <textcolor>00FFFFFF</textcolor>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.0.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.1.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.3.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.4.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.5.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.6.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.7.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.8.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.9.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.10.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.11.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.12.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.13.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.14.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.15.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.16.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.17.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.18.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.19.Art(tvshow.fanart)]</label>
-            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.20.Art(tvshow.fanart)]</label>       
+            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.0.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.1.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.3.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.4.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.5.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.6.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.7.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.8.Art(tvshow.fanart))]</label>
+            <label>$INFO[Window(Home).Property(NextUpEpisodeMB3.9.Art(tvshow.fanart))]</label>
             <label>$INFO[Window(Home).Property(RecommendedEpisode.1.Art(tvshow.fanart))]</label>
             <label>$INFO[Window(Home).Property(RecommendedEpisode.2.Art(tvshow.fanart))]</label>
             <label>$INFO[Window(Home).Property(RecommendedEpisode.3.Art(tvshow.fanart))]</label>
@@ -860,16 +849,16 @@
             <height>118</height>
             <font>Font_Reg57</font>
             <textcolor>00FFFFFF</textcolor>
-            <label>$INFO[Window(Home).Property(MostPlayedROM.1.Fanart)]</label>
-            <label>$INFO[Window(Home).Property(MostPlayedROM.2.Fanart)]</label>
-            <label>$INFO[Window(Home).Property(MostPlayedROM.3.Fanart)]</label>
-            <label>$INFO[Window(Home).Property(MostPlayedROM.4.Fanart)]</label>
-            <label>$INFO[Window(Home).Property(MostPlayedROM.5.Fanart)]</label>
-            <label>$INFO[Window(Home).Property(MostPlayedROM.6.Fanart)]</label>
-            <label>$INFO[Window(Home).Property(MostPlayedROM.7.Fanart)]</label>
-            <label>$INFO[Window(Home).Property(MostPlayedROM.8.Fanart)]</label>
-            <label>$INFO[Window(Home).Property(MostPlayedROM.9.Fanart)]</label>
-            <label>$INFO[Window(Home).Property(MostPlayedROM.10.Fanart)]</label>
+            <label>$INFO[Window(Home).Property(MostPlayedROM.1.fanart)]</label>
+            <label>$INFO[Window(Home).Property(MostPlayedROM.2.fanart)]</label>
+            <label>$INFO[Window(Home).Property(MostPlayedROM.3.fanart)]</label>
+            <label>$INFO[Window(Home).Property(MostPlayedROM.4.fanart)]</label>
+            <label>$INFO[Window(Home).Property(MostPlayedROM.5.fanart)]</label>
+            <label>$INFO[Window(Home).Property(MostPlayedROM.6.fanart)]</label>
+            <label>$INFO[Window(Home).Property(MostPlayedROM.7.fanart)]</label>
+            <label>$INFO[Window(Home).Property(MostPlayedROM.8.fanart)]</label>
+            <label>$INFO[Window(Home).Property(MostPlayedROM.9.fanart)]</label>
+            <label>$INFO[Window(Home).Property(MostPlayedROM.10.fanart)]</label>
             <visible>Stringcompare(Control.GetLabel(4322),mostplayedroms)</visible>
         </control>
         <control type="fadelabel" id="4324">
