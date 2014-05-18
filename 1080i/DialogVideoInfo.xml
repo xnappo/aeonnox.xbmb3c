@@ -978,6 +978,7 @@
                             <aspectratio aligny="center">keep</aspectratio>
                         </control>
                     </focusedlayout>
+                    <content target="video">$INFO[ListItem.Property(CastPluginLink)]</content>
                 </control>
                 <control type="group">
                     <control type="label">
