@@ -61,7 +61,7 @@
                     <onfocus>SetProperty(ContainerTitle,$INFO[Container(600).ListItem.Label],home)</onfocus>
                     <onfocus>SetFocus(601)</onfocus>
                 </control>
-                <control type="group">
+                   <control type="group">
                     <control type="button" id="130">
                         <left>875</left>
                         <top>242</top>
@@ -75,7 +75,7 @@
                         <onclick>SetFocus(601)</onclick>
                         <colordiffuse>$VAR[FocusTextureColorVar]</colordiffuse>
                         <ondown>131</ondown>
-                        <visible>!IsEmpty(ListItem.Director)</visible>
+                        <visible>!Skin.HasSetting(xbmb3c) & !IsEmpty(ListItem.Director)</visible>
                     </control>
                     <control type="button" id="131">
                         <left>875</left>
@@ -91,7 +91,8 @@
                         <colordiffuse>$VAR[FocusTextureColorVar]</colordiffuse>
                         <ondown>600</ondown>
                         <onup>130</onup>
-                        <enable>!IsEmpty(ListItem.Writer)</enable>
+                        <enable>!Skin.HasSetting(xbmb3c) & !IsEmpty(ListItem.Writer)</enable>
+                        <visible>!Skin.HasSetting(xbmb3c)</visible>
                     </control>
                 </control>
                 <!-- Movie info -->
@@ -502,30 +503,7 @@
                             </control>
                         </control>
                         <!-- Third Row -->
-                        <control type="grouplist">
-                            <!--Director-->
-                            <top>210</top>
-                            <height>43</height>
-                            <itemgap>12</itemgap>
-                            <orientation>horizontal</orientation>
-                            <visible>Container.Content(movies) | Container.Content(episodes) | Container.Content(MusicVideos)</visible>
-                            <control type="image">
-                                <top>-6</top>
-                                <width>50</width>
-                                <height>50</height>
-                                <aspectratio align="right">keep</aspectratio>
-                                <colordiffuse>white</colordiffuse>
-                                <texture>$VAR[Colortdefaulticons]director-icon.png</texture>
-                            </control>
-                            <control type="label">
-                                <left>180</left>
-                                <width>840</width>
-                                <height>44</height>
-                                <label fallback="31006">$INFO[ListItem.Director]</label>
-                                <font>Font_Reg28_2</font>
-                                <scroll>true</scroll>
-                            </control>
-                        </control>
+
                         <control type="grouplist">
                             <!--NextEpisodeVar-->
                             <height>43</height>
@@ -561,13 +539,14 @@
                             <orientation>horizontal</orientation>
                             <itemgap>12</itemgap>
                             <height>43</height>
-                            <visible>Container.Content(movies) | Container.Content(episodes) | Container.Content(MusicVideos)</visible>
+                            <visible>!Skin.HasSetting(xbmb3c) & (Container.Content(movies) | Container.Content(episodes) | Container.Content(MusicVideos))</visible>
                             <control type="image">
                                 <top>-6</top>
                                 <width>50</width>
                                 <height>50</height>
                                 <aspectratio align="right">keep</aspectratio>
                                 <colordiffuse>white</colordiffuse>
+                                <visible>!Skin.HasSetting(xbmb3c)</visible>
                                 <texture>$VAR[Colortdefaulticons]writer-icon.png</texture>
                             </control>
                             <control type="label">
@@ -575,6 +554,7 @@
                                 <width>840</width>
                                 <height>44</height>
                                 <label fallback="31006">$INFO[ListItem.Writer]</label>
+                                <visible>!Skin.HasSetting(xbmb3c)</visible>
                                 <font>Font_Reg28_2</font>
                             </control>
                         </control>
