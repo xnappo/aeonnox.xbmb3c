@@ -120,13 +120,13 @@
 		</control>
         
 		<control type="button" id="3002">
-			<description>show movies</description>
+			<description>show media</description>
 			<left>375</left>
 			<top>900</top>
 			<width>300</width>
 			<height>40</height>
 			<align>center</align>
-			<label>Show Movies</label>
+			<label>Show Media</label>
 			<font>font13</font>
             <onup>3010</onup>
 		</control>       
