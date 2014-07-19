@@ -65,15 +65,15 @@
             <left>8</left>
             <top>150</top>
             <width>300</width>
-            <height>450</height>
-            <aspectratio scalediffuse="false">scale</aspectratio>
+            <height>400</height>
+            <aspectratio scalediffuse="false">stretch</aspectratio>
             <texture background="true" diffuse="thumbs/movieposter_mask.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar]</texture>
         </control>
         <control type="image">
             <left>-11.5</left>
-            <top>130.5</top>
+            <top>130</top>
             <width>339</width>
-            <height>489</height>
+            <height>439</height>
             <texture diffuse="thumbs/movieposter_mask.png">thumbs/thumb_glass.png</texture>
             <bordertexture border="19.5">thumbs/poster_shadow.png</bordertexture>
             <bordersize>19.5</bordersize>
@@ -83,31 +83,31 @@
             <top>601</top>
             <width>300</width>
             <height>450</height>
-            <aspectratio aligny="top" scalediffuse="false">scale</aspectratio>
+            <aspectratio aligny="top" scalediffuse="false">stretch</aspectratio>
             <texture background="true" flipy="true" diffuse="thumbs/movieposter_mask_reflect.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar]</texture>
             <animation effect="fade" start="100" end="30" time="160">Focus</animation>
             <animation effect="fade" start="30" end="100" time="160">UnFocus</animation>
         </control>
         <control type="image">
-            <left>218</left>
-            <top>150</top>
-            <width>90</width>
-            <height>90</height>
+            <left>235</left>
+            <top>160</top>
+            <width>63</width>
+            <height>63</height>
             <include>OverlayVisibility0</include>
         </control>
 		<control type="image">
-            <left>218</left>
-            <top>150</top>
-            <width>90</width>
-            <height>90</height>
+            <left>235</left>
+            <top>160</top>
+            <width>63</width>
+            <height>63</height>
 			<texture>overlayprogress.png</texture>
 			<visible>Container.ListItem(0).IsResumable + Skin.HasSetting(InProgressFlag)</visible>
 		</control>			
 		<control type="image">
-            <left>218</left>
-            <top>150</top>
-            <width>90</width>
-            <height>90</height>
+            <left>235</left>
+            <top>160</top>
+            <width>63</width>
+            <height>63</height>
 			<texture background="true" diffuse="thumbs/ExtraOverlayWatched.png">$VAR[VideoextrasOverlay]</texture>
 			<visible>System.HasAddon(script.videoextras)</visible>
 		</control>			
@@ -250,10 +250,10 @@
                 </itemlayout>
                 <focusedlayout width="315" height="750" condition="!Skin.HasSetting(smallshiftview) | Window.IsActive(programs)">
                     <control type="image">
-                        <left>-35</left>
+                        <left>-25</left>
                         <top>140</top>
-                        <width>390</width>
-                        <height>400</height>
+                        <width>370</width>
+                        <height>380</height>
                         <aspectratio>keep</aspectratio>
                         <texture background="true">$INFO[ListItem.Art(discart)]</texture>
                         <animation effect="slide" delay="1600" end="0,-260" time="320" tween="quadratic">Focus</animation>
