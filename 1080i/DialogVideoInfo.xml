@@ -256,7 +256,7 @@
                                     <width>249</width>
                                     <height>65</height>
                                     <align>center</align>
-                                    <label fallback="-">$VAR[ListItemSeasonVar,S]  -  $VAR[ListItemEpisodeVar,E]</label>
+                                    <label fallback="-">$INFO[ListItem.Year]</label>
                                     <font>Font_Bold46</font>
                                     <textcolor>white2</textcolor>
                                 </control>
@@ -265,7 +265,7 @@
                                     <width>249</width>
                                     <top>37</top>
                                     <height>44</height>
-                                    <label fallback="31006">[COLOR grey]$LOCALIZE[31005]:[/COLOR] $INFO[ListItem.Premiered]</label>
+                                    <!--<label fallback="31006">[COLOR grey]$LOCALIZE[31005]:[/COLOR] $INFO[ListItem.Year]</label>-->
                                     <font>Font_Reg22</font>
                                     <align>center</align>
                                     <scroll>true</scroll>
@@ -427,7 +427,7 @@
                                     <width>155</width>
                                     <height>60</height>
                                     <align>center</align>
-                                    <label fallback="-">$INFO[ListItem.Year]</label>
+                                    <label fallback="-fdsfdsa">$INFO[ListItem.Year]</label>
                                     <font>Font_Bold34</font>
                                     <textcolor>white2</textcolor>
                                 </control>
@@ -473,7 +473,7 @@
                         <left>3</left>
                         <height>1000</height>
                         <control type="grouplist">
-                            <!--Premiered + Studio-->
+                            <!--Year + Studio-->
                             <orientation>horizontal</orientation>
                             <itemgap>12</itemgap>
                             <height>43</height>
@@ -498,7 +498,7 @@
                             <control type="label">
                                 <width>840</width>
                                 <height>44</height>
-                                <label fallback="31006">$INFO[ListItem.Premiered,$LOCALIZE[20416]: ]</label>
+                                <label fallback="31006">$INFO[ListItem.Year,$LOCALIZE[20416]: ]</label>
                                 <font>Font_Reg28_2</font>
                             </control>
                         </control>
@@ -587,7 +587,8 @@
                                 <width>1016</width>
                                 <height>325</height>
                                 <align>left</align>
-                                <label fallback="31006">$INFO[ListItem.Plot]</label>
+                                <!--<label condition="!Skin.HasSetting(xbmb3c) fallback="31006">$INFO[ListItem.Plot]</label>-->
+                                <label fallback="31006">$INFO[Window(Home).Property(MB3.Plot)]</label>
                                 <font>Font_Reg28_2</font>
                                 <pagecontrol>60</pagecontrol>
                                 <autoscroll delay="15000" time="AutoScrollTime" repeat="10000">Skin.HasSetting(AutoScroll) + !Control.HasFocus(60)</autoscroll>
@@ -596,7 +597,8 @@
                             <control type="textbox">
                                 <width>746</width>
                                 <height>325</height>
-                                <label fallback="31006">$INFO[ListItem.Plot]</label>
+                                <!--<label condition="!Skin.HasSetting(xbmb3c) fallback="31006">$INFO[ListItem.Plot]</label>-->
+                                <label fallback="31006">$INFO[Window(Home).Property(MB3.Plot)]</label>
                                 <font>Font_Reg28_2</font>
                                 <pagecontrol>60</pagecontrol>
                                 <autoscroll delay="15000" time="AutoScrollTime" repeat="10000">Skin.HasSetting(AutoScroll) + !Control.HasFocus(60)</autoscroll>
