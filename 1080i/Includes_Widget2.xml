@@ -2733,7 +2733,7 @@
             <property name="Plot">$INFO[Window(Home).Property(RandomMovieMB3.1.Plot)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
-            <visible>Substring(Control.GetLabel(4321),randommovies) + !IsEmpty(Window(Home).Property(RandomMovieMB3.1.Title))</visible>
+            <visible>Substring(Control.GetLabel(4325),randommovies) + !IsEmpty(Window(Home).Property(RandomMovieMB3.1.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>  
         <item>
@@ -2784,7 +2784,7 @@
             <property name="Plot">$INFO[Window(Home).Property(RandomMovieMB3.2.Plot)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
-            <visible>Substring(Control.GetLabel(4321),randommovies) + !IsEmpty(Window(Home).Property(RandomMovieMB3.2.Title))</visible>
+            <visible>Substring(Control.GetLabel(4325),randommovies) + !IsEmpty(Window(Home).Property(RandomMovieMB3.2.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>  
         <item>
@@ -2835,7 +2835,7 @@
             <property name="Plot">$INFO[Window(Home).Property(RandomMovieMB3.3.Plot)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
-            <visible>Substring(Control.GetLabel(4321),randommovies) + !IsEmpty(Window(Home).Property(RandomMovieMB3.3.Title))</visible>
+            <visible>Substring(Control.GetLabel(4325),randommovies) + !IsEmpty(Window(Home).Property(RandomMovieMB3.3.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>  
         <item>
@@ -2886,7 +2886,7 @@
             <property name="Plot">$INFO[Window(Home).Property(RandomMovieMB3.4.Plot)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
-            <visible>Substring(Control.GetLabel(4321),randommovies) + !IsEmpty(Window(Home).Property(RandomMovieMB3.4.Title))</visible>
+            <visible>Substring(Control.GetLabel(4325),randommovies) + !IsEmpty(Window(Home).Property(RandomMovieMB3.4.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>  
         <item>
@@ -2937,7 +2937,7 @@
             <property name="Plot">$INFO[Window(Home).Property(RandomMovieMB3.5.Plot)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
-            <visible>Substring(Control.GetLabel(4321),randommovies) + !IsEmpty(Window(Home).Property(RandomMovieMB3.5.Title))</visible>
+            <visible>Substring(Control.GetLabel(4325),randommovies) + !IsEmpty(Window(Home).Property(RandomMovieMB3.5.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>  
         <item>
@@ -2988,7 +2988,7 @@
             <property name="Plot">$INFO[Window(Home).Property(RandomMovieMB3.6.Plot)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
-            <visible>Substring(Control.GetLabel(4321),randommovies) + !IsEmpty(Window(Home).Property(RandomMovieMB3.6.Title))</visible>
+            <visible>Substring(Control.GetLabel(4325),randommovies) + !IsEmpty(Window(Home).Property(RandomMovieMB3.6.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>  
         <item>
@@ -3039,7 +3039,7 @@
             <property name="Plot">$INFO[Window(Home).Property(RandomMovieMB3.7.Plot)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
-            <visible>Substring(Control.GetLabel(4321),randommovies) + !IsEmpty(Window(Home).Property(RandomMovieMB3.7.Title))</visible>
+            <visible>Substring(Control.GetLabel(4325),randommovies) + !IsEmpty(Window(Home).Property(RandomMovieMB3.7.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>  
         <item>
@@ -3090,7 +3090,7 @@
             <property name="Plot">$INFO[Window(Home).Property(RandomMovieMB3.8.Plot)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
-            <visible>Substring(Control.GetLabel(4321),randommovies) + !IsEmpty(Window(Home).Property(RandomMovieMB3.8.Title))</visible>
+            <visible>Substring(Control.GetLabel(4325),randommovies) + !IsEmpty(Window(Home).Property(RandomMovieMB3.8.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>  
     </include>
@@ -3143,7 +3143,7 @@
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.1.Plot)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
-            <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.1.Title))</visible>
+            <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.1.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>                 
         <item>
@@ -3194,7 +3194,7 @@
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.2.Plot)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
-            <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.2.Title))</visible>
+            <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.2.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>
         <item>
@@ -3245,7 +3245,7 @@
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.3.Plot)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
-            <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.3.Title))</visible>
+            <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.3.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>
         <item>
@@ -3296,7 +3296,7 @@
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.4.Plot)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
-            <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.4.Title))</visible>
+            <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.4.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>
         <item>
@@ -3347,7 +3347,7 @@
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.5.Plot)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
-            <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.5.Title))</visible>
+            <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.5.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>
         <item>
@@ -3398,7 +3398,7 @@
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.6.Plot)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
-            <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.6.Title))</visible>
+            <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.6.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>
         <item>
@@ -3449,7 +3449,7 @@
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.7.Plot)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
-            <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.7.Title))</visible>
+            <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.7.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>
         <item>
@@ -3500,7 +3500,7 @@
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.8.Plot)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
-            <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.8.Title))</visible>
+            <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.8.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>
         <item>
@@ -3551,7 +3551,7 @@
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.9.Plot)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
-            <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.9.Title))</visible>
+            <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.9.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>
         <item>
@@ -3602,7 +3602,7 @@
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.10.Plot)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
-            <visible>Substring(Control.GetLabel(4321),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.10.Title))</visible>
+            <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.10.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item>
     </include>
@@ -4417,7 +4417,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.1.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>Substring(Control.GetLabel(4325),watchlisttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.1.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -4465,7 +4465,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.2.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>Substring(Control.GetLabel(4325),watchlisttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.2.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -4513,7 +4513,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.3.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>Substring(Control.GetLabel(4325),watchlisttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.3.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -4561,7 +4561,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.4.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>Substring(Control.GetLabel(4325),watchlisttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.4.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -4611,7 +4611,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.5.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>Substring(Control.GetLabel(4325),watchlisttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.5.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -4659,7 +4659,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.6.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>Substring(Control.GetLabel(4325),watchlisttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.6.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -4707,7 +4707,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.7.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>Substring(Control.GetLabel(4325),watchlisttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.7.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -4755,7 +4755,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(NextUpEpisodeMB3.8.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
+            <visible>Substring(Control.GetLabel(4325),watchlisttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(NextUpEpisodeMB3.8.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -4802,7 +4802,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(RandomEpisodeMB3.1.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),randomtv)</visible>
+            <visible>Substring(Control.GetLabel(4325),randomtv)</visible>
             <visible>!IsEmpty(Window(Home).Property(RandomEpisodeMB3.1.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -4847,7 +4847,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(RandomEpisodeMB3.2.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),randomtv)</visible>
+            <visible>Substring(Control.GetLabel(4325),randomtv)</visible>
             <visible>!IsEmpty(Window(Home).Property(RandomEpisodeMB3.2.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -4892,7 +4892,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(RandomEpisodeMB3.3.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),randomtv)</visible>
+            <visible>Substring(Control.GetLabel(4325),randomtv)</visible>
             <visible>!IsEmpty(Window(Home).Property(RandomEpisodeMB3.3.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -4937,7 +4937,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(RandomEpisodeMB3.4.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),randomtv)</visible>
+            <visible>Substring(Control.GetLabel(4325),randomtv)</visible>
             <visible>!IsEmpty(Window(Home).Property(RandomEpisodeMB3.4.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -4984,7 +4984,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(RandomEpisodeMB3.5.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),randomtv)</visible>
+            <visible>Substring(Control.GetLabel(4325),randomtv)</visible>
             <visible>!IsEmpty(Window(Home).Property(RandomEpisodeMB3.5.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -5029,7 +5029,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(RandomEpisodeMB3.6.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),randomtv)</visible>
+            <visible>Substring(Control.GetLabel(4325),randomtv)</visible>
             <visible>!IsEmpty(Window(Home).Property(RandomEpisodeMB3.6.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -5074,7 +5074,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(RandomEpisodeMB3.7.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),randomtv)</visible>
+            <visible>Substring(Control.GetLabel(4325),randomtv)</visible>
             <visible>!IsEmpty(Window(Home).Property(RandomEpisodeMB3.7.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -5119,7 +5119,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(RandomEpisodeMB3.8.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),randomtv)</visible>
+            <visible>Substring(Control.GetLabel(4325),randomtv)</visible>
             <visible>!IsEmpty(Window(Home).Property(RandomEpisodeMB3.8.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -5166,7 +5166,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(LatestEpisodeMB3.1.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),recenttv)</visible>
+            <visible>Substring(Control.GetLabel(4325),recenttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(LatestEpisodeMB3.1.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -5211,7 +5211,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(LatestEpisodeMB3.2.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),recenttv)</visible>
+            <visible>Substring(Control.GetLabel(4325),recenttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(LatestEpisodeMB3.2.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -5256,7 +5256,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(LatestEpisodeMB3.3.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),recenttv)</visible>
+            <visible>Substring(Control.GetLabel(4325),recenttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(LatestEpisodeMB3.3.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -5301,7 +5301,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(LatestEpisodeMB3.4.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),recenttv)</visible>
+            <visible>Substring(Control.GetLabel(4325),recenttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(LatestEpisodeMB3.4.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -5348,7 +5348,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(LatestEpisodeMB3.5.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),recenttv)</visible>
+            <visible>Substring(Control.GetLabel(4325),recenttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(LatestEpisodeMB3.5.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -5393,7 +5393,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(LatestEpisodeMB3.6.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),recenttv)</visible>
+            <visible>Substring(Control.GetLabel(4325),recenttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(LatestEpisodeMB3.6.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -5438,7 +5438,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(LatestEpisodeMB3.7.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),recenttv)</visible>
+            <visible>Substring(Control.GetLabel(4325),recenttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(LatestEpisodeMB3.7.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -5483,7 +5483,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(LatestEpisodeMB3.8.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),recenttv)</visible>
+            <visible>Substring(Control.GetLabel(4325),recenttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(LatestEpisodeMB3.8.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -5528,7 +5528,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(LatestEpisodeMB3.9.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),recenttv)</visible>
+            <visible>Substring(Control.GetLabel(4325),recenttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(LatestEpisodeMB3.9.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>
@@ -5573,7 +5573,7 @@
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(5014)</onclick>
             <thumb>$INFO[Window(Home).Property(LatestEpisodeMB3.10.Art(thumb))]</thumb>
-            <visible>Substring(Control.GetLabel(4321),recenttv)</visible>
+            <visible>Substring(Control.GetLabel(4325),recenttv)</visible>
             <visible>!IsEmpty(Window(Home).Property(LatestEpisodeMB3.10.EpisodeTitle))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>            
         </item>		
