@@ -2744,7 +2744,7 @@
 					<top>-345</top>
 					<width>460</width>
 					<height>690</height>
-					<aspectratio>scale</aspectratio>
+					<aspectratio>keep</aspectratio>
 					<texture background="true" fallback="DefaultVideoBigPoster.png">$INFO[Window(home).Property(Icon)]</texture>
 					<visible>IsEmpty(Window(home).Property(Poster))</visible>
 				</control>
@@ -2753,7 +2753,7 @@
 					<top>-345</top>
 					<width>460</width>
 					<height>690</height>
-					<aspectratio>scale</aspectratio>
+					<aspectratio>keep</aspectratio>
 					<texture background="true">$INFO[Window(home).Property(Poster)]</texture>
 					<visible>!Skin.HasSetting(CasesonWidgets)</visible>
 				</control>
@@ -2766,7 +2766,7 @@
 						<top>-327</top>
 						<width>450</width>
 						<height>623</height>
-						<aspectratio>stretch</aspectratio>
+						<aspectratio>keep</aspectratio>
 						<texture background="true">$INFO[Window(home).Property(Poster)]</texture>
 					</control>
 					<control type="image">
@@ -2787,7 +2787,7 @@
 						<top>-380</top>
 						<width>455</width>
 						<height>680</height>
-						<aspectratio>stretch</aspectratio>
+						<aspectratio>keep</aspectratio>
 						<texture background="true" diffuse="thumbs/movieposter_mask.png">$INFO[Window(home).Property(Poster)]</texture>
 					</control>
 					<control type="image">
@@ -2808,7 +2808,7 @@
 						<top>-405</top>
 						<width>463</width>
 						<height>690</height>
-						<aspectratio>stretch</aspectratio>
+						<aspectratio>keep</aspectratio>
 						<texture background="true" diffuse="thumbs/movieposter_mask.png">$INFO[Window(home).Property(Poster)]</texture>
 					</control>
 					<control type="image">
@@ -4925,7 +4925,7 @@
 						<top>5</top>
 						<width>218</width>
 						<height>340</height>
-						<aspectratio align="center">scale</aspectratio>
+						<aspectratio align="center">keep</aspectratio>
 						<texture background="true" fallback="DefaultVideoBigPoster.png">$INFO[ListItem.Property(Poster)]</texture>
 					</control>
 					<control type="image">
@@ -4945,7 +4945,7 @@
 						<top>5</top>
 						<width>218</width>
 						<height>340</height>
-						<aspectratio>scale</aspectratio>
+						<aspectratio>keep</aspectratio>
 						<texture background="true" fallback="DefaultVideoBigPoster.png">$INFO[ListItem.Property(Poster)]</texture>
 					</control>
 					<control type="image">
@@ -5411,7 +5411,7 @@
 						<top>5</top>
 						<width>218</width>
 						<height>340</height>
-						<aspectratio align="center">scale</aspectratio>
+						<aspectratio align="center">keep</aspectratio>
 						<texture background="true" fallback="DefaultVideoBigPoster.png">$INFO[ListItem.Property(Poster)]</texture>
 					</control>
 					<control type="image">
@@ -5431,7 +5431,7 @@
 						<top>5</top>
 						<width>218</width>
 						<height>340</height>
-						<aspectratio>scale</aspectratio>
+						<aspectratio>keep</aspectratio>
 						<texture background="true" fallback="DefaultVideoBigPoster.png">$INFO[ListItem.Property(Poster)]</texture>
 					</control>
 					<control type="image">
