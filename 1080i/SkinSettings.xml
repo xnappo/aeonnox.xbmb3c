@@ -76,7 +76,7 @@
                         <onclick>noop</onclick>
                     </item>
                     <item id="11">
-                        <label>Mode</label>
+                        <label>XBMB3C</label>
                         <onclick>noop</onclick>
                     </item>
                 </content>
@@ -605,7 +605,12 @@
                         <onclick>ReplaceWindow(Home)</onclick>
                         <selected>Skin.HasSetting(xbmb3cmusic)</selected>
                     </control>                    
-                    </control>                
+                    <control type="button" id="1903">
+                        <label>Set Default Views</label>
+                        <include>Default_SettingButton</include>
+                        <onclick>RunAddon(plugin.video.xbmb3c,"?mode=3&url=http%3a%2f%2fSETVIEWSSETVIEWS")</onclick>
+                    </control>
+                </control>                
             </control>            
             <control type="group">
                 <left>1170</left>
