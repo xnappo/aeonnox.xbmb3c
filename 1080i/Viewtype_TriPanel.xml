@@ -188,9 +188,9 @@
 				<visible>System.HasAddon(script.videoextras)</visible>
 			</control>					
                 <control type="image">
-                    <top>68</top>
-                    <width>664</width>
-                    <height>840</height>
+                    <top>26</top>
+                    <width>665</width>
+                    <height>931</height>
                     <aspectratio align="top" scalediffuse="false">stretch</aspectratio>
                     <texture>views/tripanel/poster_overlay.png</texture>
                 </control>
