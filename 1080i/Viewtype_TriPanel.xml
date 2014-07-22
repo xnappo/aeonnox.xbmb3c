@@ -187,13 +187,13 @@
 				<texture background="true" diffuse="thumbs/ExtraOverlayWatchedtripanel.png">$VAR[VideoextrasOverlay]</texture>
 				<visible>System.HasAddon(script.videoextras)</visible>
 			</control>					
-                <control type="image">
+                <!--control type="image">
                     <top>26</top>
                     <width>665</width>
                     <height>931</height>
                     <aspectratio align="top" scalediffuse="false">stretch</aspectratio>
                     <texture>views/tripanel/poster_overlay.png</texture>
-                </control>
+                </control-->
             </control>
             <control type="group" id="5203">
                 <left>1335</left>
