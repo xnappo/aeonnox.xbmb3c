@@ -3237,7 +3237,7 @@
         </item>
         <item>
             <label>$INFO[Window(Home).Property(LatestMovieMB3.2.Title)]</label>
-            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.2.Path)])</property>
+            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.2.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.2.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.2.Art(fanart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.2.Runtime)]</property>
@@ -3291,7 +3291,7 @@
         </item>
         <item>
             <label>$INFO[Window(Home).Property(LatestMovieMB3.3.Title)]</label>
-            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.3.Path)])</property>
+            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.3.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.3.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.3.Art(fanart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.3.Runtime)]</property>
@@ -3345,7 +3345,7 @@
         </item>
         <item>
             <label>$INFO[Window(Home).Property(LatestMovieMB3.4.Title)]</label>
-            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.4.Path)])</property>
+            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.4.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.4.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.4.Art(fanart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.4.Runtime)]</property>
@@ -3399,7 +3399,7 @@
         </item>
         <item>
             <label>$INFO[Window(Home).Property(LatestMovieMB3.5.Title)]</label>
-            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.5.Path)])</property>
+            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.5.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.5.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.5.Art(fanart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.5.Runtime)]</property>
@@ -3453,7 +3453,7 @@
         </item>
         <item>
             <label>$INFO[Window(Home).Property(LatestMovieMB3.6.Title)]</label>
-            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.6.Path)])</property>
+            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.6.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.6.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.6.Art(fanart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.6.Runtime)]</property>
@@ -3507,7 +3507,7 @@
         </item>
         <item>
             <label>$INFO[Window(Home).Property(LatestMovieMB3.7.Title)]</label>
-            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.7.Path)])</property>
+            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.7.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.7.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.7.Art(fanart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.7.Runtime)]</property>
@@ -3561,7 +3561,7 @@
         </item>
         <item>
             <label>$INFO[Window(Home).Property(LatestMovieMB3.8.Title)]</label>
-            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.8.Path)])</property>
+            <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.8.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.8.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.8.Art(fanart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.8.Runtime)]</property>

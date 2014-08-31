@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <window>
-    <defaultcontrol always="true">8</defaultcontrol>
+    <defaultcontrol always="true">1313</defaultcontrol>
     <onload>ClearProperty(ActorFade)</onload>
     <onload>AlarmClock(ActorFade,SetProperty(ActorFade,true),00:02,silent)</onload>
     <onload condition="Skin.HasSetting(TVTunes.Enabled) + System.HasAddon(script.tvtunes)">XBMC.RunScript(script.tvtunes,backend=True)
@@ -861,7 +861,7 @@
 							</control>
 							<control type="group">
 								<control type="label">
-								<top>8</top>
+								<top>1313</top>
 								<textoffsetx>5</textoffsetx>
 								<width>600</width>
 								<height>30</height>
@@ -2308,9 +2308,11 @@ ActivateWindow(videos,plugin://plugin.video.youtube/?path=/root/search&amp;feed=
                     <ondown>60</ondown>
                     <orientation>horizontal</orientation>
                     <scrolltime tween="quadratic">200</scrolltime>
-                    <control type="button" id="8">
+                    <control type="button" id="1313">
                         <label>$VAR[DialogVideoInfoButtonLabelVar]</label>
                         <include>DialogVideoInfoButton</include>
+                        <onclick>$INFO[Window(home).Property("MB3.Action")]</onclick>
+                        <onclick>Dialog.Close(MovieInformation)</onclick>
                     </control>
                		<control type="button" id="101">
 						<description>Extras</description>
