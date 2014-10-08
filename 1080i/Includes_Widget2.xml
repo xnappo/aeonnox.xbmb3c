@@ -2415,6 +2415,7 @@
             <property name="Top250">$INFO[Window(Home).Property(InProgressMovieMB3.1.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(InProgressMovieMB3.1.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(InProgressMovieMB3.1.Plot)]</property>
+			<property name="Mpaa">$INFO[Window(Home).Property(InProgressMovieMB3.1.mpaa)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),watchlistmovies) + !IsEmpty(Window(Home).Property(InProgressMovieMB3.1.Title))</visible>
@@ -2433,6 +2434,7 @@
             <property name="Top250">$INFO[Window(Home).Property(InProgressMovieMB3.2.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(InProgressMovieMB3.2.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(InProgressMovieMB3.2.Plot)]</property>
+			<property name="Mpaa">$INFO[Window(Home).Property(InProgressMovieMB3.2.mpaa)]</property>
             <property name="NavItem">item2.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),watchlistmovies) + !IsEmpty(Window(Home).Property(InProgressMovieMB3.2.Title))</visible>
@@ -2450,6 +2452,7 @@
             <property name="Top250">$INFO[Window(Home).Property(InProgressMovieMB3.3.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(InProgressMovieMB3.3.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(InProgressMovieMB3.3.Plot)]</property>
+			<property name="Mpaa">$INFO[Window(Home).Property(InProgressMovieMB3.3.mpaa)]</property>
             <property name="NavItem">item3.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),watchlistmovies) + !IsEmpty(Window(Home).Property(InProgressMovieMB3.3.Title))</visible>
@@ -2467,6 +2470,7 @@
             <property name="Top250">$INFO[Window(Home).Property(InProgressMovieMB3.4.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(InProgressMovieMB3.4.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(InProgressMovieMB3.4.Plot)]</property>
+			<property name="Mpaa">$INFO[Window(Home).Property(InProgressMovieMB3.4.mpaa)]</property>
             <property name="NavItem">item4.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),watchlistmovies) + !IsEmpty(Window(Home).Property(InProgressMovieMB3.4.Title))</visible>
@@ -2484,6 +2488,7 @@
             <property name="Top250">$INFO[Window(Home).Property(InProgressMovieMB3.5.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(InProgressMovieMB3.5.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(InProgressMovieMB3.5.Plot)]</property>
+			<property name="Mpaa">$INFO[Window(Home).Property(InProgressMovieMB3.5.mpaa)]</property>
             <property name="NavItem">item5.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),watchlistmovies) + !IsEmpty(Window(Home).Property(InProgressMovieMB3.5.Title))</visible>
@@ -2501,6 +2506,7 @@
             <property name="Top250">$INFO[Window(Home).Property(InProgressMovieMB3.6.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(InProgressMovieMB3.6.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(InProgressMovieMB3.6.Plot)]</property>
+			<property name="Mpaa">$INFO[Window(Home).Property(InProgressMovieMB3.6.mpaa)]</property>
             <property name="NavItem">item6.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),watchlistmovies) + !IsEmpty(Window(Home).Property(InProgressMovieMB3.6.Title))</visible>
@@ -2518,6 +2524,7 @@
             <property name="Top250">$INFO[Window(Home).Property(InProgressMovieMB3.7.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(InProgressMovieMB3.7.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(InProgressMovieMB3.7.Plot)]</property>
+			<property name="Mpaa">$INFO[Window(Home).Property(InProgressMovieMB3.7.mpaa)]</property>
             <property name="NavItem">item7.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),watchlistmovies) + !IsEmpty(Window(Home).Property(InProgressMovieMB3.7.Title))</visible>
@@ -2535,6 +2542,7 @@
             <property name="Top250">$INFO[Window(Home).Property(InProgressMovieMB3.8.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(InProgressMovieMB3.8.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(InProgressMovieMB3.8.Plot)]</property>
+			<property name="Mpaa">$INFO[Window(Home).Property(InProgressMovieMB3.8.mpaa)]</property>
             <property name="NavItem">item8.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),watchlistmovies) + !IsEmpty(Window(Home).Property(InProgressMovieMB3.8.Title))</visible>
@@ -3279,6 +3287,7 @@
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.1.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.1.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.1.Plot)]</property>
+			<property name="Mpaa">$INFO[Window(Home).Property(LatestMovieMB3.1.mpaa)]</property>
             <property name="NavItem">item1.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.1.Title))</visible>
@@ -3331,6 +3340,7 @@
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.2.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.2.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.2.Plot)]</property>
+			<property name="Mpaa">$INFO[Window(Home).Property(LatestMovieMB3.2.mpaa)]</property>
             <property name="NavItem">item2.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.2.Title))</visible>
@@ -3383,6 +3393,7 @@
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.3.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.3.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.3.Plot)]</property>
+			<property name="Mpaa">$INFO[Window(Home).Property(LatestMovieMB3.3.mpaa)]</property>
             <property name="NavItem">item3.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.3.Title))</visible>
@@ -3435,6 +3446,7 @@
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.4.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.4.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.4.Plot)]</property>
+			<property name="Mpaa">$INFO[Window(Home).Property(LatestMovieMB3.4.mpaa)]</property>
             <property name="NavItem">item4.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.4.Title))</visible>
@@ -3487,6 +3499,7 @@
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.5.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.5.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.5.Plot)]</property>
+			<property name="Mpaa">$INFO[Window(Home).Property(LatestMovieMB3.5.mpaa)]</property>
             <property name="NavItem">item5.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.5.Title))</visible>
@@ -3539,6 +3552,7 @@
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.6.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.6.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.6.Plot)]</property>
+			<property name="Mpaa">$INFO[Window(Home).Property(LatestMovieMB3.6.mpaa)]</property>
             <property name="NavItem">item6.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.6.Title))</visible>
@@ -3591,6 +3605,7 @@
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.7.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.7.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.7.Plot)]</property>
+			<property name="Mpaa">$INFO[Window(Home).Property(LatestMovieMB3.7.mpaa)]</property>
             <property name="NavItem">item7.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.7.Title))</visible>
@@ -3643,6 +3658,7 @@
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.8.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.8.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.8.Plot)]</property>
+			<property name="Mpaa">$INFO[Window(Home).Property(LatestMovieMB3.8.mpaa)]</property>
             <property name="NavItem">item8.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.8.Title))</visible>
@@ -3695,6 +3711,7 @@
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.9.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.9.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.9.Plot)]</property>
+			<property name="Mpaa">$INFO[Window(Home).Property(LatestMovieMB3.9.mpaa)]</property>
             <property name="NavItem">item9.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.9.Title))</visible>
@@ -3747,6 +3764,7 @@
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.10.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.10.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.10.Plot)]</property>
+			<property name="Mpaa">$INFO[Window(Home).Property(LatestMovieMB3.10.mpaa)]</property>
             <property name="NavItem">item10.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.10.Title))</visible>
