@@ -2408,6 +2408,7 @@
             <property name="Path">$INFO[Window(Home).Property(InProgressMovieMB3.1.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(InProgressMovieMB3.1.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.1.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(InProgressMovieMB3.1.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(InProgresstMovieMB3.1.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(InProgressMovieMB3.1.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(InProgressMovieMB3.1.Rating)]</property>
@@ -2424,6 +2425,7 @@
             <property name="Path">$INFO[Window(Home).Property(InProgressMovieMB3.2.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(InProgressMovieMB3.2.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.2.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(InProgressMovieMB3.2.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(InProgresstMovieMB3.2.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(InProgressMovieMB3.2.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(InProgressMovieMB3.2.Rating)]</property>
@@ -2440,6 +2442,7 @@
             <property name="Path">$INFO[Window(Home).Property(InProgressMovieMB3.3.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(InProgressMovieMB3.3.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.3.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(InProgressMovieMB3.3.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(InProgresstMovieMB3.3.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(InProgressMovieMB3.3.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(InProgressMovieMB3.3.Rating)]</property>
@@ -2456,6 +2459,7 @@
             <property name="Path">$INFO[Window(Home).Property(InProgressMovieMB3.4.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(InProgressMovieMB3.4.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.4.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(InProgressMovieMB3.4.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(InProgresstMovieMB3.4.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(InProgressMovieMB3.4.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(InProgressMovieMB3.4.Rating)]</property>
@@ -2472,6 +2476,7 @@
             <property name="Path">$INFO[Window(Home).Property(InProgressMovieMB3.5.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(InProgressMovieMB3.5.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.5.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(InProgressMovieMB3.5.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(InProgresstMovieMB3.5.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(InProgressMovieMB3.5.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(InProgressMovieMB3.5.Rating)]</property>
@@ -2488,6 +2493,7 @@
             <property name="Path">$INFO[Window(Home).Property(InProgressMovieMB3.6.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(InProgressMovieMB3.6.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.6.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(InProgressMovieMB3.6.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(InProgresstMovieMB3.6.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(InProgressMovieMB3.6.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(InProgressMovieMB3.6.Rating)]</property>
@@ -2504,6 +2510,7 @@
             <property name="Path">$INFO[Window(Home).Property(InProgressMovieMB3.7.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(InProgressMovieMB3.7.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.7.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(InProgressMovieMB3.7.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(InProgresstMovieMB3.7.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(InProgressMovieMB3.7.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(InProgressMovieMB3.7.Rating)]</property>
@@ -2520,6 +2527,7 @@
             <property name="Path">$INFO[Window(Home).Property(InProgressMovieMB3.8.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(InProgressMovieMB3.8.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.8.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(InProgressMovieMB3.8.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(InProgresstMovieMB3.8.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(InProgressMovieMB3.8.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(InProgressMovieMB3.8.Rating)]</property>
@@ -3314,6 +3322,7 @@
             <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.1.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.1.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.1.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(LatestMovieMB3.1.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.1.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.1.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.1.Rating)]</property>
@@ -3368,6 +3377,7 @@
             <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.2.Path)])</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.2.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.2.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(LatestMovieMB3.2.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.2.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.2.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.2.Rating)]</property>
@@ -3422,6 +3432,7 @@
             <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.3.Path)])</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.3.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.3.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(LatestMovieMB3.3.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.3.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.3.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.3.Rating)]</property>
@@ -3476,6 +3487,7 @@
             <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.4.Path)])</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.4.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.4.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(LatestMovieMB3.4.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.4.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.4.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.4.Rating)]</property>
@@ -3530,6 +3542,7 @@
             <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.5.Path)])</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.5.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.5.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(LatestMovieMB3.5.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.5.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.5.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.5.Rating)]</property>
@@ -3584,6 +3597,7 @@
             <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.6.Path)])</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.6.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.6.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(LatestMovieMB3.6.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.6.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.6.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.6.Rating)]</property>
@@ -3638,6 +3652,7 @@
             <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.7.Path)])</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.7.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.7.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(LatestMovieMB3.7.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.7.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.7.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.7.Rating)]</property>
@@ -3692,6 +3707,7 @@
             <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.8.Path)])</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.8.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.8.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(LatestMovieMB3.8.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.8.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.8.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.8.Rating)]</property>

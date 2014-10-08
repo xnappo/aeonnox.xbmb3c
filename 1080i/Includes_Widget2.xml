@@ -2408,7 +2408,8 @@
             <property name="Path">$INFO[Window(Home).Property(InProgressMovieMB3.1.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(InProgressMovieMB3.1.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.1.Art(fanart))]</property>
-            <property name="RunningTime">$INFO[Window(Home).Property(InProgressMovieMB3.1.Runtime)]</property>
+			<property name="Discart">$INFO[Window(Home).Property(InProgressMovieMB3.1.Art(discart))]</property>
+            <property name="RunningTime">$INFO[Window(Home).Property(InProgresstMovieMB3.1.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(InProgressMovieMB3.1.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(InProgressMovieMB3.1.Rating)]</property>
             <property name="Top250">$INFO[Window(Home).Property(InProgressMovieMB3.1.Top250)]</property>
@@ -2419,11 +2420,13 @@
             <visible>Substring(Control.GetLabel(4325),watchlistmovies) + !IsEmpty(Window(Home).Property(InProgressMovieMB3.1.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
         </item> 
+		
 	   <item>
             <label>$INFO[Window(Home).Property(InProgressMovieMB3.2.Title)]</label>
             <property name="Path">$INFO[Window(Home).Property(InProgressMovieMB3.2.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(InProgressMovieMB3.2.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.2.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(InProgressMovieMB3.2.Art(discart)]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(InProgressMovieMB3.2.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(InProgressMovieMB3.2.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(InProgressMovieMB3.2.Rating)]</property>
@@ -2440,6 +2443,7 @@
             <property name="Path">$INFO[Window(Home).Property(InProgressMovieMB3.3.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(InProgressMovieMB3.3.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.3.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(InProgressMovieMB3.3.Art(discart)]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(InProgressMovieMB3.3.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(InProgressMovieMB3.3.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(InProgressMovieMB3.3.Rating)]</property>
@@ -2456,6 +2460,7 @@
             <property name="Path">$INFO[Window(Home).Property(InProgressMovieMB3.4.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(InProgressMovieMB3.4.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.4.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(InProgressMovieMB3.4.Art(discart)]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(InProgressMovieMB3.4.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(InProgressMovieMB3.4.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(InProgressMovieMB3.4.Rating)]</property>
@@ -2472,6 +2477,7 @@
             <property name="Path">$INFO[Window(Home).Property(InProgressMovieMB3.5.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(InProgressMovieMB3.5.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.5.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(InProgressMovieMB3.5.Art(discart)]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(InProgressMovieMB3.5.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(InProgressMovieMB3.5.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(InProgressMovieMB3.5.Rating)]</property>
@@ -2488,6 +2494,7 @@
             <property name="Path">$INFO[Window(Home).Property(InProgressMovieMB3.6.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(InProgressMovieMB3.6.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.6.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(InProgressMovieMB3.6.Art(discart)]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(InProgressMovieMB3.6.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(InProgressMovieMB3.6.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(InProgressMovieMB3.6.Rating)]</property>
@@ -2504,6 +2511,7 @@
             <property name="Path">$INFO[Window(Home).Property(InProgressMovieMB3.7.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(InProgressMovieMB3.7.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.7.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(InProgressMovieMB3.7.Art(discart)]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(InProgressMovieMB3.7.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(InProgressMovieMB3.7.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(InProgressMovieMB3.7.Rating)]</property>
@@ -2520,6 +2528,7 @@
             <property name="Path">$INFO[Window(Home).Property(InProgressMovieMB3.8.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(InProgressMovieMB3.8.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(InProgressMovieMB3.8.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(InProgressMovieMB3.8.Art(discart)]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(InProgressMovieMB3.8.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(InProgressMovieMB3.8.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(InProgressMovieMB3.8.Rating)]</property>
@@ -3263,7 +3272,8 @@
             <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.1.Path)]</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.1.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.1.Art(fanart))]</property>
-            <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.1.Runtime)]</property>
+            <property name="Discart">$INFO[Window(Home).Property(LatestMovieMB3.1.Art(discart))]</property>
+			<property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.1.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.1.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.1.Rating)]</property>
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.1.Top250)]</property>
@@ -3314,13 +3324,14 @@
             <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.2.Path)])</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.2.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.2.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(LatestMovieMB3.2.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.2.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.2.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.2.Rating)]</property>
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.2.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.2.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.2.Plot)]</property>
-            <property name="NavItem">item1.png</property>
+            <property name="NavItem">item2.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.2.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
@@ -3365,13 +3376,14 @@
             <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.3.Path)])</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.3.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.3.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(LatestMovieMB3.3.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.3.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.3.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.3.Rating)]</property>
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.3.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.3.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.3.Plot)]</property>
-            <property name="NavItem">item1.png</property>
+            <property name="NavItem">item3.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.3.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
@@ -3416,13 +3428,14 @@
             <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.4.Path)])</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.4.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.4.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(LatestMovieMB3.4.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.4.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.4.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.4.Rating)]</property>
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.4.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.4.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.4.Plot)]</property>
-            <property name="NavItem">item1.png</property>
+            <property name="NavItem">item4.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.4.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
@@ -3467,13 +3480,14 @@
             <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.5.Path)])</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.5.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.5.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(LatestMovieMB3.5.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.5.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.5.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.5.Rating)]</property>
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.5.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.5.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.5.Plot)]</property>
-            <property name="NavItem">item1.png</property>
+            <property name="NavItem">item5.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.5.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
@@ -3518,13 +3532,14 @@
             <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.6.Path)])</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.6.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.6.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(LatestMovieMB3.6.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.6.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.6.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.6.Rating)]</property>
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.6.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.6.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.6.Plot)]</property>
-            <property name="NavItem">item1.png</property>
+            <property name="NavItem">item6.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.6.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
@@ -3569,13 +3584,14 @@
             <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.7.Path)])</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.7.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.7.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(LatestMovieMB3.7.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.7.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.7.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.7.Rating)]</property>
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.7.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.7.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.7.Plot)]</property>
-            <property name="NavItem">item1.png</property>
+            <property name="NavItem">item7.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.7.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
@@ -3620,13 +3636,14 @@
             <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.8.Path)])</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.8.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.8.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(LatestMovieMB3.8.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.8.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.8.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.8.Rating)]</property>
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.8.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.8.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.8.Plot)]</property>
-            <property name="NavItem">item1.png</property>
+            <property name="NavItem">item8.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.8.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
@@ -3671,13 +3688,14 @@
             <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.9.Path)])</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.9.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.9.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(LatestMovieMB3.9.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.9.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.9.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.9.Rating)]</property>
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.9.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.9.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.9.Plot)]</property>
-            <property name="NavItem">item1.png</property>
+            <property name="NavItem">item9.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.9.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>
@@ -3712,7 +3730,7 @@
             <property name="PlotOutline">$INFO[Window(Home).Property(RecentMovie.10.PlotOutline)]</property>
             <property name="mpaa">$INFO[Window(Home).Property(RecentMovie.10.mpaa)]</property>
             <property name="DBID">$INFO[Window(Home).Property(RecentMovie.10.DBID)]</property>
-            <property name="NavItem">item8.png</property>
+            <property name="NavItem">item10.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(RecentMovie.10.Title))</visible>
             <visible>!Skin.HasSetting(xbmb3c)</visible>
@@ -3722,13 +3740,14 @@
             <property name="Path">$INFO[Window(Home).Property(LatestMovieMB3.10.Path)])</property>
             <property name="Logo">$INFO[Window(Home).Property(LatestMovieMB3.10.Art(clearlogo))]</property>
             <property name="Fanart">$INFO[Window(Home).Property(LatestMovieMB3.10.Art(fanart))]</property>
+			<property name="Discart">$INFO[Window(Home).Property(LatestMovieMB3.10.Art(discart))]</property>
             <property name="RunningTime">$INFO[Window(Home).Property(LatestMovieMB3.10.Runtime)]</property>
             <property name="Year">$INFO[Window(Home).Property(LatestMovieMB3.10.Year)]</property>
             <property name="Rating">$INFO[Window(Home).Property(LatestMovieMB3.10.Rating)]</property>
             <property name="Top250">$INFO[Window(Home).Property(LatestMovieMB3.10.Top250)]</property>
             <property name="Poster">$INFO[Window(Home).Property(LatestMovieMB3.10.Art(poster))]</property>
             <property name="Plot">$INFO[Window(Home).Property(LatestMovieMB3.10.Plot)]</property>
-            <property name="NavItem">item1.png</property>
+            <property name="NavItem">item10.png</property>
             <onclick>SetFocus(6014)</onclick>
             <visible>Substring(Control.GetLabel(4325),recentmovies) + !IsEmpty(Window(Home).Property(LatestMovieMB3.10.Title))</visible>
             <visible>Skin.HasSetting(xbmb3c)</visible>

@@ -362,7 +362,7 @@
 						<height>300</height>
 						<aligny>top</aligny>
 						<aspectratio>keep</aspectratio>
-						<texture background="true" fallback="common/cdart/bd.png">$INFO[Player.Art(discart)]</texture>
+						<texture background="true" fallback="common/cdart/bd.png">$INFO[Player.Art(Discart)]</texture>
 						<fadetime>300</fadetime>
 						<animation effect="rotate" end="-360" center="auto" time="4800" loop="true" reversible="false" condition="!Player.Paused">Conditional</animation>
 					</control>
@@ -3102,7 +3102,8 @@
 						<textcolor>white6</textcolor>
 						<pagecontrol>5019</pagecontrol>
 						<autoscroll delay="5000" time="AutoScrollTime" repeat="8000">Skin.HasSetting(AutoScroll)</autoscroll>
-						<visible>IsEmpty(Window(home).Property(Discart)) + !Substring(Window(home).Property(WidgetType),tv)</visible>
+						<!-- <visible>IsEmpty(Window(home).Property(Discart)) + !Substring(Window(home).Property(WidgetType),tv)</visible> -->
+						<visible>IsEmpty(Window(home).Property(Discart))</visible>
 					</control>
 					<control type="textbox" id="5060">
 						<width>960</width>
@@ -3629,7 +3630,7 @@
 			<visible>Substring(Control.GetLabel(4325),classic) + !Window.IsActive(1120)</visible>
 			<animation effect="slide" end="0,25" time="320" tween="cubic" easing="inout" condition="[[Skin.HasSetting(totalshomehigh) + !Skin.HasSetting(DisableLibraryStats)] | [Skin.HasSetting(timehomehigh) + !Skin.HasSetting(DisableTimePanel)]]">Conditional</animation>
 			<visible>![IsEmpty(Window(Home).Property(NextAired.1.Label)) + Substring(Control.GetLabel(4325),nextairedtv)]</visible>
-			<visible>![IsEmpty(Window(Home).Property(RecommendedMovie.1.Title)) + Substring(Control.GetLabel(4325),watchlistmovies)]</visible>
+			<visible>![IsEmpty(Window(Home).Property(RecommendedMovie.1.Title)) + Substring(Control.GetLabel(4325),watchlistmovies)]</visible>			
 			<visible>![IsEmpty(Window(Home).Property(RecommendedEpisode.1.Title)) + Substring(Control.GetLabel(4325),watchlisttv)]</visible>
 			<include>Animation_Widgets</include>
 			<!--Unfocused widget -->
@@ -4354,7 +4355,7 @@
 			<animation effect="slide" end="0,25" time="320" tween="cubic" easing="inout" condition="[[Skin.HasSetting(totalshomehigh) + !Skin.HasSetting(DisableLibraryStats)] | [Skin.HasSetting(timehomehigh) + !Skin.HasSetting(DisableTimePanel)]]">Conditional</animation>
 			<visible>[Substring(Control.GetLabel(4325),featured) | Substring(Control.GetLabel(4325),panel)]</visible>
 			<visible>![IsEmpty(Window(Home).Property(NextAired.1.Label)) + Substring(Control.GetLabel(4325),nextairedtv)]</visible>
-                <visible>![IsEmpty(Window(Home).Property(InProgressMovieMB3.1.Title)) + Substring(Control.GetLabel(4325),watchlistmovies)]</visible>
+            <visible>![IsEmpty(Window(Home).Property(InProgressMovieMB3.1.Title)) + Substring(Control.GetLabel(4325),watchlistmovies)]</visible>
 			<visible>IsEmpty(Window(home).Property(DisableWidgets))</visible>
 			<include>Animation_Widgets</include>
 			<animation type="Conditional" condition="true">
