@@ -242,7 +242,7 @@
 			-->
             
 			<!-- <visible> Container.Content(movies) | !Container.Content(series) </visible> -->
-			<visible> Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) </visible>
+			<visible> !Control.IsVisible(57) +!Control.IsVisible(510) + !Control.IsVisible(52) | Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) </visible>
 			
 			
 			<top>1000</top>
@@ -372,7 +372,7 @@
             <control type="group">
                 
 				<!--<visible>[[Container.Content(tvshows) | Container.Content(seasons)] + !IsEmpty(ListItem.TVShowTitle)]</visible> -->
-				<visible>[!Container.Content(episodes) + !Container.Content(movies)]</visible>
+				<visible>[!Control.IsVisible(57) +!Control.IsVisible(510) +!Control.IsVisible(52) + !Container.Content(episodes) + !Container.Content(movies)]</visible>
 				
                 <animation effect="slide" time="560" start="0,300" end="0,0" tween="cubic">Visible</animation>
                 <animation effect="slide" time="250" end="0,400" tween="cubic" easing="in">Hidden</animation>
