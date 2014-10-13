@@ -5691,7 +5691,8 @@
 					</control>
 				</focusedlayout>
 				<content>
-					<include condition="Library.HasContent(movies) + [Window.IsActive(1124) | Substring(Skin.String(widget2list),recentmoviespanel)]">LatestMoviesItems2</include>
+					<include condition="!Skin.HasSetting(xbmb3c) + Library.HasContent(movies) + [Window.IsActive(1124) | Substring(Skin.String(widget2list),recentmoviespanel)]">LatestMoviesItems2</include>
+                    <include condition="Skin.HasSetting(xbmb3c) + [Window.IsActive(1124) | Substring(Skin.String(widget2list),recentmoviespanel)]">LatestMoviesItems2</include>
 					<include condition="Library.HasContent(movies) + [Window.IsActive(1124) | Substring(Skin.String(widget2list),randommoviespanel)]">RandomMoviesItems2</include>
 					<include condition="Library.HasContent(musicvideos) + [Window.IsActive(1124) | Substring(Skin.String(widget2list),watchlistmusicvideospanel)]">WatchListMusicVideosItems2</include>
 					<include condition="Library.HasContent(musicvideos) + [Window.IsActive(1124) | Substring(Skin.String(widget2list),recentmusicvideospanel)]">MusicvideoLatestItems2</include>
