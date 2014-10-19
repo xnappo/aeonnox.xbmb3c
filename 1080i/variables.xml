@@ -205,7 +205,7 @@
         <value condition="substring(Window(home).Property(mpaa),TV-MA)">TV-MA_Certificate_US</value>
         <value condition="substring(Window(home).Property(mpaa),TV-Y7)">tv-y7</value>
         <value condition="substring(Window(home).Property(mpaa),TV-Y)">tv-y</value>
-        <value condition="SubString(Window(home).Property(mpaa),US:G) | SubString(Window(home).Property(mpaa),USA:G) | SubString(Window(home).Property(mpaa),Rated G)">MPAA_G_Certificate_US</value>
+        <value condition="SubString(Window(home).Property(mpaa),US:G) | SubString(Window(home).Property(mpaa),USA:G) | SubString(Window(home).Property(mpaa),Rated G) | SubString(Window(home).Property(mpaa),G)">MPAA_G_Certificate_US</value>
         <value condition="SubString(Window(home).Property(mpaa),PG-13)">MPAA_PG-13_Certificate_US</value>
         <value condition="Substring(Window(home).Property(mpaa),Rated PG) | StringCompare(Window(home).Property(mpaa),PG)">MPAA_PG_Certificate_US</value>
         <value condition="SubString(Window(home).Property(mpaa),US:R) | SubString(Window(home).Property(mpaa),USA:R) | SubString(Window(home).Property(mpaa),Rated R) | StringCompare(Window(home).Property(mpaa),R)">MPAA_R_Certificate_US</value>
@@ -394,7 +394,7 @@
         <value condition="substring(ListItem.mpaa,TV-MA)">TV-MA_Certificate_US</value>
         <value condition="substring(ListItem.mpaa,TV-Y7)">tv-y7</value>
         <value condition="substring(ListItem.mpaa,TV-Y)">tv-y</value>
-        <value condition="SubString(ListItem.mpaa,US:G) | SubString(ListItem.mpaa,USA:G) | SubString(ListItem.mpaa,Rated G)">MPAA_G_Certificate_US</value>
+        <value condition="SubString(ListItem.mpaa,US:G) | SubString(ListItem.mpaa,USA:G) | SubString(ListItem.mpaa,Rated G) | SubString(ListItem.mpaa,G)">MPAA_G_Certificate_US</value>
         <value condition="SubString(ListItem.mpaa,PG-13)">MPAA_PG-13_Certificate_US</value>
         <value condition="Substring(ListItem.mpaa,Rated PG) | StringCompare(ListItem.Mpaa,PG)">MPAA_PG_Certificate_US</value>
         <value condition="SubString(ListItem.mpaa,US:R) | SubString(ListItem.mpaa,USA:R) | SubString(ListItem.mpaa,Rated R) | StringCompare(ListItem.mpaa,R)">MPAA_R_Certificate_US</value>
@@ -441,7 +441,7 @@
         <value condition="substring(VideoPlayer.mpaa,TV-MA)">TV-MA_Certificate_US</value>
         <value condition="substring(VideoPlayer.mpaa,TV-Y7)">tv-y7</value>
         <value condition="substring(VideoPlayer.mpaa,TV-Y)">tv-y</value>
-        <value condition="SubString(VideoPlayer.mpaa,US:G) | SubString(VideoPlayer.mpaa,USA:G) | SubString(VideoPlayer.mpaa,Rated G)">MPAA_G_Certificate_US</value>
+        <value condition="SubString(VideoPlayer.mpaa,US:G) | SubString(VideoPlayer.mpaa,USA:G) | SubString(VideoPlayer.mpaa,Rated G) | SubString(Video.Player.mpaa,G)">MPAA_G_Certificate_US</value>
         <value condition="SubString(VideoPlayer.mpaa,PG-13)">MPAA_PG-13_Certificate_US</value>
         <value condition="Substring(VideoPlayer.mpaa,Rated PG) | StringCompare(VideoPlayer.Mpaa,PG)">MPAA_PG_Certificate_US</value>
         <value condition="SubString(VideoPlayer.mpaa,US:R) | SubString(VideoPlayer.mpaa,USA:R) | SubString(VideoPlayer.mpaa,Rated R) | StringCompare(VideoPlayer.Mpaa,R)">MPAA_R_Certificate_US</value>
